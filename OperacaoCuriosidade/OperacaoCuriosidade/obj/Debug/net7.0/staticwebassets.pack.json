@@ -1,0 +1,125 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\cadastro\\cadastro.css",
+      "PackagePath": "staticwebassets\\cadastro\\cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\cadastro\\cadastro.html",
+      "PackagePath": "staticwebassets\\cadastro\\cadastro.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\cadastro\\mediaQueryCadastro.css",
+      "PackagePath": "staticwebassets\\cadastro\\mediaQueryCadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\home\\home.css",
+      "PackagePath": "staticwebassets\\home\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\home\\home.html",
+      "PackagePath": "staticwebassets\\home\\home.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\home\\mediaQueryHome.css",
+      "PackagePath": "staticwebassets\\home\\mediaQueryHome.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\imagens\\favicon.ico",
+      "PackagePath": "staticwebassets\\imagens\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\imagens\\logo_login.png",
+      "PackagePath": "staticwebassets\\imagens\\logo_login.png"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\imagens\\logo_nav.png",
+      "PackagePath": "staticwebassets\\imagens\\logo_nav.png"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\index\\index.css",
+      "PackagePath": "staticwebassets\\index\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\index\\index.html",
+      "PackagePath": "staticwebassets\\index\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\index\\mediaQueryIndex.css",
+      "PackagePath": "staticwebassets\\index\\mediaQueryIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\listaDeUsuario\\listaDeUsuario.html",
+      "PackagePath": "staticwebassets\\listaDeUsuario\\listaDeUsuario.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\listaDeUsuario\\listaUsuario.css",
+      "PackagePath": "staticwebassets\\listaDeUsuario\\listaUsuario.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\listaDeUsuario\\mediaQueryListaUsuario.css",
+      "PackagePath": "staticwebassets\\listaDeUsuario\\mediaQueryListaUsuario.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\login\\login.css",
+      "PackagePath": "staticwebassets\\login\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\login\\login.html",
+      "PackagePath": "staticwebassets\\login\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\login\\login.js",
+      "PackagePath": "staticwebassets\\login\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\login\\mediaQueryLogin.css",
+      "PackagePath": "staticwebassets\\login\\mediaQueryLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\novoCadastro\\mediaQueryNovoCadastro.css",
+      "PackagePath": "staticwebassets\\novoCadastro\\mediaQueryNovoCadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\novoCadastro\\novoCadastro.html",
+      "PackagePath": "staticwebassets\\novoCadastro\\novoCadastro.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\novoCadastro\\novoCadastro.js",
+      "PackagePath": "staticwebassets\\novoCadastro\\novoCadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\novoCadastro\\novocadastro.css",
+      "PackagePath": "staticwebassets\\novoCadastro\\novocadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\relatorio\\mediaQueryRelatorio.css",
+      "PackagePath": "staticwebassets\\relatorio\\mediaQueryRelatorio.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\relatorio\\relatorio.css",
+      "PackagePath": "staticwebassets\\relatorio\\relatorio.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\relatorio\\relatorio.html",
+      "PackagePath": "staticwebassets\\relatorio\\relatorio.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.OperacaoCuriosidade.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.OperacaoCuriosidade.props",
+      "PackagePath": "build\\OperacaoCuriosidade.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.OperacaoCuriosidade.props",
+      "PackagePath": "buildMultiTargeting\\OperacaoCuriosidade.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.OperacaoCuriosidade.props",
+      "PackagePath": "buildTransitive\\OperacaoCuriosidade.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

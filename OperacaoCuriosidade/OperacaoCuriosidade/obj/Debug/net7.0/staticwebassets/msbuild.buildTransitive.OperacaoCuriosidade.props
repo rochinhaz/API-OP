@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\OperacaoCuriosidade.props" />
+</Project>
