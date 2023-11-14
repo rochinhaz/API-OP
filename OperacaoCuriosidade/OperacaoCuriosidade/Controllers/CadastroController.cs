@@ -24,27 +24,14 @@ namespace OperacaoCuriosidade.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CadastroDTO>>> GetCadastro()
         {
-          /*if (_context.Cadastro == null)
-          {
-              return NotFound();
-          }*/
             return await _context.Cadastro.Select(x => CadastroToDTO(x))
                 .ToListAsync();
         }
-
-        //private object ItemToDTO(Cadastro x)
-        //{
-          //  throw new NotImplementedException();
-        //}
 
         // GET: api/Cadastro/5
         [HttpGet("{id}")]
         public async Task<ActionResult<CadastroDTO>> GetCadastro(long id)
         {
-          /*if (_context.Cadastro == null)
-          {
-              return NotFound();
-          }*/
             var cadastro = await _context.Cadastro.FindAsync(id);
 
             if (cadastro == null)
@@ -90,17 +77,6 @@ namespace OperacaoCuriosidade.Controllers
         // POST: api/Cadastro
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
 
-        /*public async Task<ActionResult<Cadastro>> PostCadastro(Cadastro cadastro)
-        {
-          if (_context.Cadastro == null)
-          {
-              return Problem("Entity set 'TodoContext.Cadastro'  is null.");
-          }
-            _context.Cadastro.Add(cadastro);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetCadastro), new { id = cadastro.Id }, cadastro);
-        }*/
         [HttpPost]
         public async Task<ActionResult<CadastroDTO>> PostCadastro(CadastroDTO cadastroDTO)
         {

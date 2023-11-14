@@ -10841,11 +10841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
+      "projectUniqueName": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
       "projectName": "OperacaoCuriosidade",
-      "projectPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
+      "projectPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
       "packagesPath": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\",
+      "outputPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

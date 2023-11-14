@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "11WjW6SrW9QNX5Le6xy3mkiE91lY1nj3HCIouDHdvz3aFKp2UOLj31ctXtD2YmRc2lWDhG3LKcO/R2KEsP6Ssw==",
+  "dgSpecHash": "f+aMjOBx98qfZNyQzt5bZfPdQYOBQjX7JObC9tY7APw93TT5KWdgnixOU6IHKEo+ykKqwBg75KJkEKBuNA4ylw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\CSHARP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
+  "projectFilePath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
