@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 220px) and (max-width: 767px){
+
+    div#divlogin {
+        height: 250px;
+        width: 300px;     
+    }
+
+    div#logo_login>img{
+        height: 50px;
+    }
+
+    div.campo{
+        width: 180px;
+        height: 25px;
+        margin: 20px 60px auto;
+    }
+
+    div#entrar {
+        display: block;
+        width: 180px;
+        height: 25px;
+        margin: 20px 60px auto;
+    }
+
+    div#entrar>input{
+        padding: 5px 64.5px;    
+    }
+}

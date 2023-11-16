@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperacaoCuriosidade", "OperacaoCuriosidade\OperacaoCuriosidade.csproj", "{6E72955C-312A-4E48-A565-4D53368B920E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E72955C-312A-4E48-A565-4D53368B920E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E72955C-312A-4E48-A565-4D53368B920E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E72955C-312A-4E48-A565-4D53368B920E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E72955C-312A-4E48-A565-4D53368B920E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B62AD11-1DD7-4048-9DD7-BE64CB890C88}
+	EndGlobalSection
+EndGlobal

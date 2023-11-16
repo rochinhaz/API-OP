@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+    margin: 20px 30px 40px 10px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    color:gray;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+header > div> input{
+    margin: 7px;
+}
+
+
+fieldset {
+    border: none;
+    border-top: 1px solid black;
+    margin: 5px 20px 5px 30px;
+}
+
+legend{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    background-color: rgb(248, 246, 246);
+    border: 1px solid rgb(230, 230, 230);
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+input#inome{
+    width: 96%;
+}
+
+input#iendereco{
+    width: 96%;
+}
+
+input#iidade{
+    width: 14%;
+    margin-right: 3%;
+}
+
+input#iemail{
+    width: 77.4%;
+}
+
+label#labelemail {
+    position: relative;
+    left: 16%;
+}
+
+textarea{
+    background-color: rgb(248, 246, 246);
+    border: 1px solid rgb(230, 230, 230);
+    resize: none;
+    margin: 10px 20px 10px 10px;
+    width: 96%;
+    height: 20vh;
+}
+
+footer.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer > input{
+    text-decoration: none;
+    background-color: rgb(61, 151, 61);
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer > input:hover {
+    border: 0.5px solid rgba(255, 255, 255, 0.582);
+    transform: translate(-0.2px, -0.2px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    transition: transform 0.1s;
+}
+
+#msgErro{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: rgba(245, 125, 125, 0.815);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px 20px 0px 9px;
+    width: 96%;
+    display: none;
+}
+
+#msgValido{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: rgba(120, 247, 120, 0.808);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px 20px 0px 9px;
+    width: 96%;
+    display: none;
+}
