@@ -5,13 +5,13 @@ let validNome = false;
 let msgErro = document.getElementById('msgErro');
 let msgValido = document.getElementById('msgValido');
 
-var atividadeButton = document.getElementById('iativo').value;
+var atividadeButton = document.getElementById('iativo');
 var atividadeValor = "";
 
-if (atividadeButton==0) {
-    atividadeValor = " Inativo "
-}else{
+if (atividadeButton == 'a') {
     atividadeValor = " Ativo "
+}else{
+    atividadeValor = " Inativo "
 }
 
 const uri = 'https://localhost:7149/api/Cadastro';

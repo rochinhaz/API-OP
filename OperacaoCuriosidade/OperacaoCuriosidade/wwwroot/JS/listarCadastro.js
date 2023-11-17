@@ -43,7 +43,7 @@ function _displayCount(cadastroCount) {
   }
 
   function _displayCadastro(data){
-    const tBody = document.getElementById('todos');
+    const tBody = document.querySelector('.todos');
     tBody.innerHTML = '';
 
   _displayCount(data.length);
