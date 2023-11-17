@@ -14,7 +14,7 @@ if (atividadeButton==0) {
     atividadeValor = " Ativo "
 }
 
-const uri = 'https://localhost:7149/Cadastro';
+const uri = 'https://localhost:7149/api/Cadastro';
 /*let todos = [];
 
 function getCadastro(){
@@ -30,7 +30,6 @@ function addCadastro(){
     const addAtividadeTextbox = atividadeValor;
     debugger
     const  cadastro = {
-        isComplete: false,
         nome: addNomeTextbox.value.trim(),
         email: addEmailTextbox.value.trim(),
         atividade: addAtividadeTextbox
@@ -54,7 +53,7 @@ function addCadastro(){
         .catch(error => console.error('Unable to add item.', error));
 }
 
-/*function updateCadastro() {
+function updateCadastro() {
     const cadastroId = document.getElementById('edit-id').value;
     const cadastro = {
         id: parseInt(cadastroId, 10),
@@ -76,7 +75,7 @@ function addCadastro(){
     closeInput();
 
     return false;
-}*/
+}
 
 /*function closeInput() {
     document.getElementById('editForm').style.display = 'none';
@@ -168,5 +167,5 @@ function gravar(){
         msgValido.setAttribute('style', 'display: none');
         msgValido.innerHTML = '';
     }
-    //addCadastro();
+    addCadastro();
 }

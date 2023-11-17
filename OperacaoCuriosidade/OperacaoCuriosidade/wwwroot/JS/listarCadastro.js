@@ -1,4 +1,4 @@
-const uri = 'https://localhost:7149/Cadastro';
+const uri = 'https://localhost:7149/api/Cadastro';
 let todos = [];
 
 function getCadastro(){
@@ -8,17 +8,41 @@ function getCadastro(){
     .catch(error => console.error('Unable to get items.',error))
 }
 
+function updateCadastro() {
+  const cadastroId = document.getElementById('edit-id').value;
+  const cadastro = {
+      id: parseInt(cadastroId, 10),
+      isComplete: document.getElementById('edit-isComplete').checked,
+      name: document.getElementById('edit-name').value.trim()
+  };
+
+  fetch(`${uri}/${cadastroId}`, {
+      method: 'PUT',
+      headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(cadastro)
+  })
+      .then(() => getCadastro())
+      .catch(error => console.error('Unable to update item.', error));
+
+  closeInput();
+
+  return false;
+}
+
 function closeInput() {
     document.getElementById('editForm').style.display = 'none';
   }
   
 function _displayCount(cadastroCount) {
-    const name = (cadastroCount === 1) ? 'to-do' : 'to-dos';
+    const nome = (cadastroCount === 1) ? 'to-do' : 'to-dos';
   
-    document.getElementById('counter').innerText = `${cadastroCount} ${nome} ${email} ${atividade}`;
+    //document.getElementById('counter').innerText = `${cadastroCount} ${nome}`;
   }
 
-  function _displayItems(data){
+  function _displayCadastro(data){
     const tBody = document.getElementById('todos');
     tBody.innerHTML = '';
 
