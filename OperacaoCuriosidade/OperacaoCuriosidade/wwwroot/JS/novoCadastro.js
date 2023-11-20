@@ -2,13 +2,19 @@ let nomeE = document.getElementById('inome');
 let labelNome = document.getElementById('labelnome');
 let validNome = false;
 
-let msgErro = document.getElementById('msgErro');
-let msgValido = document.getElementById('msgValido');
+let emailE = document.getElementById('iemail');
+let labelEmail = document.getElementById('labelemail');
+let validEmail = false;
+
+let msgErroNome = document.getElementById('msgErroNome');
+let msgValidoNome = document.getElementById('msgValidoNome');
+let msgErroEmail = document.getElementById('msgErroEmail');
+let msgValidoEmail = document.getElementById('msgValidoEmail');
 
 var atividadeButton = document.getElementById('iativo');
 var atividadeValor = "";
 
-if (atividadeButton == 'a') {
+if (atividadeButton.checked) {
     atividadeValor = " Ativo "
 }else{
     atividadeValor = " Inativo "
@@ -140,6 +146,22 @@ nomeE.addEventListener('keyup', () =>{
     }
 })
 
+function validarEmail (emailE) {
+    var emailPattern =  /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+     return emailPattern.test(emailE); 
+  }
+
+emailE.addEventListener('keyup', () =>{
+    if(validarEmail(emailE.value) == false){
+        labelEmail.setAttribute('style','color: red');
+        labelEmail.innerHTML = "Email *insira um email valido";
+        validEmail = false;
+    }else{
+        labelEmail.setAttribute('style','color: green');
+        labelEmail.innerHTML = "Email";
+        validEmail = true;
+    }
+})
 
 function selecionarInput (event){
     const inputClicado = event.target;
@@ -153,19 +175,39 @@ function selecionarInput (event){
 
 function gravar(){
 
-    if(validNome == true){
-        msgValido.setAttribute('style', 'display: block');
-        msgValido.innerHTML = '<strong>Usuario cadastrado</strong>';
-        msgErro.setAttribute('style', 'display: none');
-        msgErro.innerHTML = '';
+    if(validNome == true && validEmail == true){
+        msgValidoNome.setAttribute('style', 'display: block');
+        msgValidoNome.innerHTML = '<strong>Usuario cadastrado</strong>';
+        msgErroNome.setAttribute('style', 'display: none');
+        msgErroNome.innerHTML = '';
+        msgErroEmail.setAttribute('style', 'display: none');
+        msgErroEmail.innerHTML = '';
+        addCadastro();
         setTimeout(()=>{
             location.href = "../cadastro/cadastro.html";
         },3000)
+    }else if(validNome == true && validEmail == false){
+        msgErroNome.setAttribute('style', 'display: none');
+        msgErroNome.innerHTML = '';
+        msgErroEmail.setAttribute('style', 'display: block');
+        msgErroEmail.innerHTML = '<strong>Preencha o campo email corretamente</strong>';
+        msgValidoEmail.setAttribute('style', 'display: none');
+        msgValidoEmail.innerHTML = '';
+    }else if(validNome == false && validEmail == true){
+        msgErroNome.setAttribute('style', 'display: block');
+        msgErroNome.innerHTML = '<strong>Preencha o campo nome corretamente</strong>';
+        msgValidoNome.setAttribute('style', 'display: none');
+        msgValidoNome.innerHTML = '';
+        msgErroEmail.setAttribute('style', 'display: none');
+        msgErroEmail.innerHTML = '';
     }else{
-        msgErro.setAttribute('style', 'display: block');
-        msgErro.innerHTML = '<strong>Preencha o campo nome corretamente</strong>';
-        msgValido.setAttribute('style', 'display: none');
-        msgValido.innerHTML = '';
+        msgErroNome.setAttribute('style', 'display: block');
+        msgErroNome.innerHTML = '<strong>Preencha o campo nome corretamente</strong>';
+        msgValidoNome.setAttribute('style', 'display: none');
+        msgValidoNome.innerHTML = '';
+        msgErroEmail.setAttribute('style', 'display: block');
+        msgErroEmail.innerHTML = '<strong>Preencha o campo email corretamente</strong>';
+        msgValidoEmail.setAttribute('style', 'display: none');
+        msgValidoEmail.innerHTML = '';
     }
-    addCadastro();
 }

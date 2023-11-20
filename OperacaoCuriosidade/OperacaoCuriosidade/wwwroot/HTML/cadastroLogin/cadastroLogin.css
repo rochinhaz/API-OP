@@ -25,17 +25,9 @@
         transform: translate(-50%, -50%); 
              
     }
-    
-    div#logo_login{
-        margin-top: 30px;
-        background-color: white;
-    }
 
-    div#logo_login>img{
-        border-radius: 50%;
-        background-size: cover;
-        height: 130px;
-        margin: auto;
+    div#campoNome{
+        margin-top: 80px;
     }
 
     div.campo{
@@ -43,7 +35,7 @@
         display: block;
         width: 250px;
         height: 40px;
-        margin: 60px 150px auto;
+        margin: 20px 150px auto;
     }
 
     div.campo>input {
@@ -57,7 +49,7 @@
         text-indent: 10px;
     }
 
-    div#entrar {
+    div#cadastrar {
         display: block;
         width: 250px;
         height: 40px;
@@ -68,12 +60,12 @@
 
     }
 
-    div#entrar>input{
+    div#cadastrar>input{
         font-size: 11px;
         border: none;
         border: 0px;
         margin-top: 14px;
-        padding: 11px 100px;
+        padding: 12px 88px;
         color: white;
         background-color: black;
         text-align: center;
@@ -83,13 +75,35 @@
         
     }
 
-    div#cadastrese{
+    div#voltar{
         margin-top: 10px;
     }
 
-    div#cadastrese>a{
+    div#voltar>a{
         color: black;
         text-decoration: none;
+    }
+
+    #msgErroNome{
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        background-color: rgba(245, 125, 125, 0.815);
+        padding: 6px;
+        margin: 0px;
+        width: 100%;
+        display: none;
+    }
+    
+    #msgValidoNome{
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        background-color: rgba(120, 247, 120, 0.808);
+        padding: 6px;
+        margin: 0px;
+        width: 100%;
+        display: none;
     }
 
     #msgErroSenha{
@@ -126,6 +140,50 @@
     }
     
     #msgValidoEmail{
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        background-color: rgba(120, 247, 120, 0.808);
+        padding: 6px;
+        margin: 0px;
+        width: 100%;
+        display: none;
+    }
+
+    #msgErroSenhaConfirma{
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        background-color: rgba(245, 125, 125, 0.815);
+        padding: 6px;
+        margin: 0px;
+        width: 100%;
+        display: none;
+    }
+    
+    #msgValidoSenhaConfirma{
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        background-color: rgba(120, 247, 120, 0.808);
+        padding: 6px;
+        margin: 0px;
+        width: 100%;
+        display: none;
+    }
+
+    #msgErroEmailConfirma{
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        background-color: rgba(245, 125, 125, 0.815);
+        padding: 6px;
+        margin: 0px;
+        width: 100%;
+        display: none;
+    }
+    
+    #msgValidoEmailConfirma{
         text-align: center;
         font-size: 10px;
         color: black;

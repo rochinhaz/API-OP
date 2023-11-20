@@ -15,7 +15,7 @@
     <header class="container">
             <h2>Novo Cadastro </h2>
             <div>
-                <input type="radio" name="ativo" value="a" id="iativo"  onchange="selecionarInput (event)">Ativo </input>
+                <input type="radio" name="ativo" id="iativo"  onchange="selecionarInput (event)">Ativo </input>
             </div>
 
     </header>
@@ -25,8 +25,10 @@
             
             <fieldset>
                 <legend>1º Fatos e Dados</legend>
-                <div id="msgErro"></div>
-                <div id="msgValido"></div>
+                <div id="msgErroNome"></div>
+                <div id="msgValidoNome"></div>
+                <div id="msgErroEmail"></div>
+                <div id="msgValidoEmail"></div>
                 <p>
                     <label for="inome" id="labelnome">Nome:</label><br>
                     <input type="text" name="nome" id="inome" maxlength="40" required>

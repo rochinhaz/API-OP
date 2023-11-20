@@ -105,7 +105,7 @@ footer > input:hover {
     transition: transform 0.1s;
 }
 
-#msgErro{
+#msgErroNome{
     text-align: center;
     font-size: 10px;
     color: black;
@@ -117,7 +117,31 @@ footer > input:hover {
     display: none;
 }
 
-#msgValido{
+#msgErroEmail{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: rgba(245, 125, 125, 0.815);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px 20px 0px 9px;
+    width: 96%;
+    display: none;
+}
+
+#msgValidoNome{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: rgba(120, 247, 120, 0.808);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0px 20px 0px 9px;
+    width: 96%;
+    display: none;
+}
+
+#msgValidoEmail{
     text-align: center;
     font-size: 10px;
     color: black;
