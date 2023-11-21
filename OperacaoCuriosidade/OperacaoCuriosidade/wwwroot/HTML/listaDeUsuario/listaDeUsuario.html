@@ -14,18 +14,18 @@
 
     <header class="noprint">
         <h2>Relatórios > Lista de usuários</h2>
-        <input type="button" value="IMPRIMIR" onclick="window.print()">
+        <input type="button" id="btImprimir" value="IMPRIMIR" onclick="window.print()">
     </header>
 
     <main>
-
         <div id="editForm">
-            <h3>Edit</h3>
-            <form action="javascript:void(0);" onsubmit="updateItem()">
-                <input type="hidden" id="edit-id">
-                <input type="checkbox" id="edit-isComplete">
-                <input type="text" id="edit-name">
-                <input type="submit" value="Save">
+            <h3>Editar</h3>
+            <form action="javascript:void(0);" onsubmit="updateCadastro()">
+                <input type="hidden" id="edit-id" class="edit">
+                <input type="text" id="edit-name" class="edit">
+                <input type="text" id="edit-email" class="edit">
+                <input type="text" id="edit-atividade" class="edit">
+                <input type="submit" id="edit-salvar" value="Salvar" class="edit">
                 <a onclick="closeInput()" aria-label="Close">&#10006;</a>
             </form>
         </div>

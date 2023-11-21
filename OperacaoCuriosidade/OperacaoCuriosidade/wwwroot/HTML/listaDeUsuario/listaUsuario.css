@@ -8,6 +8,76 @@
     color: gray;
 }
 
+input[type='submit'], button, [aria-label] {
+    cursor: pointer;
+}
+
+.editButton{
+    padding: 3px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: white;
+    background-color: rgb(45, 45, 165);
+    border: none;
+
+}
+
+.deleteButton{
+    padding: 3px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: white;
+    background-color: rgb(45, 45, 165);
+    border: none;
+}
+
+#btImprimir{
+    display: block;
+}
+
+#editForm {
+    display: none;
+    margin-bottom: 30px;
+}
+
+#editForm>h3{
+    margin-left: 15px;
+}
+
+.edit{
+    background-color:rgb(175, 175, 175);
+    border: 1px solid rgb(175, 175, 175);
+    padding: 6px;
+    color: black;
+}
+
+#edit-name{
+    margin-left: 30px;
+    width: 180px;
+    cursor: text;
+}
+
+#edit-email{
+    width: 260px;
+    cursor: text;
+}
+
+#edit-atividade{
+    width: 80px;
+    cursor: text;
+}
+
+#edit-salvar{
+    color: white;
+    background-color: rgb(45, 45, 165);
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -87,6 +157,15 @@ main> table > tbody > tr {
         background: transparent;
         color: black;
         text-shadow: none;
+    }
+
+    .editButton{
+        display: none;
+    
+    }
+    
+    .deleteButton{
+        display: none;    
     }
 
 }

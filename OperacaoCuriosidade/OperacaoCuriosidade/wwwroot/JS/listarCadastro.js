@@ -8,12 +8,31 @@ function getCadastro(){
     .catch(error => console.error('Unable to get items.',error))
 }
 
+function deleteItem(id) {
+  fetch(`${uri}/${id}`, {
+    method: 'DELETE'
+  })
+  .then(() => getCadastro())
+  .catch(error => console.error('Unable to delete item.', error));
+}
+
+function displayEditForm(id) {
+  const cadastro = todos.find(cadastro => cadastro.id === id);
+  
+  document.getElementById('edit-name').value = cadastro.nome;
+  document.getElementById('edit-email').value = cadastro.email;
+  document.getElementById('edit-atividade').value = cadastro.atividade;
+  document.getElementById('edit-id').value = cadastro.id;
+  document.getElementById('editForm').style.display = 'block';
+}
+
 function updateCadastro() {
   const cadastroId = document.getElementById('edit-id').value;
   const cadastro = {
       id: parseInt(cadastroId, 10),
-      isComplete: document.getElementById('edit-isComplete').checked,
-      name: document.getElementById('edit-name').value.trim()
+      nome: document.getElementById('edit-name').value.trim(),
+      email: document.getElementById('edit-email').value.trim(),
+      atividade: document.getElementById('edit-atividade').value.trim()
   };
 
   fetch(`${uri}/${cadastroId}`, {
@@ -33,13 +52,11 @@ function updateCadastro() {
 }
 
 function closeInput() {
-    document.getElementById('editForm').style.display = 'none';
-  }
-  
+  document.getElementById('editForm').style.display = 'none';
+}
+
 function _displayCount(cadastroCount) {
     const nome = (cadastroCount === 1) ? 'to-do' : 'to-dos';
-  
-    //document.getElementById('counter').innerText = `${cadastroCount} ${nome}`;
   }
 
   function _displayCadastro(data){
@@ -48,21 +65,22 @@ function _displayCount(cadastroCount) {
 
   _displayCount(data.length);
 
-  const button = document.createElement('button');
+  const buttonE = document.createElement('button');
+  buttonE.setAttribute('class', 'editButton');
+  const buttonD = document.createElement('button');
+  buttonD.setAttribute('class', 'deleteButton');
 
   data.forEach(cadastro => {
-    let isCompleteCheckbox = document.createElement('input');
-    isCompleteCheckbox.type = 'checkbox';
-    isCompleteCheckbox.disabled = true;
-    isCompleteCheckbox.checked = cadastro.isComplete;
 
-    let editButton = button.cloneNode(false);
-    editButton.innerText = 'Edit';
+    let editButton = buttonE.cloneNode(false);
+    editButton.innerText = 'Editar';
     editButton.setAttribute('onclick', `displayEditForm(${cadastro.id})`);
+    buttonE.setAttribute('class', 'editButton');
 
-    let deleteButton = button.cloneNode(false);
-    deleteButton.innerText = 'Delete';
+    let deleteButton = buttonD.cloneNode(false);
+    deleteButton.innerText = 'Deletar';
     deleteButton.setAttribute('onclick', `deleteItem(${cadastro.id})`);
+    buttonD.setAttribute('class', 'deleteButton');
 
     let tr = tBody.insertRow();
     
@@ -77,7 +95,8 @@ function _displayCount(cadastroCount) {
     let td3 = tr.insertCell(2);
     let textAtividade = document.createTextNode(cadastro.atividade);
     td3.appendChild(textAtividade);
-
+    td3.appendChild(editButton);
+    td3.appendChild(deleteButton);
   });
 
   todos = data;
