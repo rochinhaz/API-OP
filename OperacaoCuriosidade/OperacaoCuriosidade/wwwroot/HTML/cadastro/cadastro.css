@@ -8,6 +8,15 @@
     color: gray;
 }
 
+.editButton{
+    display: none;
+
+}
+
+.deleteButton{
+    display: none;
+}
+
 .container{
     display: flex;
     justify-content: space-between;

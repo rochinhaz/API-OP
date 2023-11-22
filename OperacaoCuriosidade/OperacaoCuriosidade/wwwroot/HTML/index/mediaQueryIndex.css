@@ -55,7 +55,7 @@
         margin-right: 2px;
     }
     
-    nav > img {
+    nav > #logoNav {
         display: none;
     }
     
@@ -133,12 +133,6 @@
     nav>hr{
         margin-left: 10px;
         margin-right: 20px;
-    }
-    
-    nav > img {
-        margin: 10px 5px 15px 10px;
-        width: 84%;
-        height: 5%;
     }
     
     main {

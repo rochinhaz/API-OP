@@ -8,6 +8,15 @@
     color: gray;
 }
 
+.editButton{
+    display: none;
+
+}
+
+.deleteButton{
+    display: none;
+}
+
 body {
     background-color: rgb(230, 230, 230);
 }

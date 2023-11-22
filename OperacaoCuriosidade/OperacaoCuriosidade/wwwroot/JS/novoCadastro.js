@@ -1,5 +1,6 @@
 let nomeE = document.getElementById('inome');
 let labelNome = document.getElementById('labelnome');
+labelNome.focus();
 let validNome = false;
 
 let emailE = document.getElementById('iemail');
@@ -14,27 +15,13 @@ let msgValidoEmail = document.getElementById('msgValidoEmail');
 var atividadeButton = document.getElementById('iativo');
 var atividadeValor = "";
 
-if (atividadeButton.checked) {
-    atividadeValor = " Ativo "
-}else{
-    atividadeValor = " Inativo "
-}
-
 const uri = 'https://localhost:7149/api/Cadastro';
-/*let todos = [];
-
-function getCadastro(){
-    fetch(uri)
-    .then(response => response.json())
-    .then(data => _displayCadastro(data))
-    .catch(error => console.error('Unable to get items.',error))
-}*/
 
 function addCadastro(){
-    const addNomeTextbox = document.getElementById('inome');
-    const addEmailTextbox = document.getElementById('iemail');
-    const addAtividadeTextbox = atividadeValor;
-    debugger
+    atividadeValor = atividadeButton.checked ? "Ativo" : "Inativo";
+    let addNomeTextbox = document.getElementById('inome');
+    let addEmailTextbox = document.getElementById('iemail');
+    let addAtividadeTextbox = atividadeValor;
     const  cadastro = {
         nome: addNomeTextbox.value.trim(),
         email: addEmailTextbox.value.trim(),
@@ -51,36 +38,11 @@ function addCadastro(){
       })
         .then(response => response.json())
         .then(() => {
-          getCadastro();
           addNomeTextbox.value = '';
           addEmailTextbox.value = '';
           addAtividadeTextbox = '';
         })
         .catch(error => console.error('Unable to add item.', error));
-}
-
-function updateCadastro() {
-    const cadastroId = document.getElementById('edit-id').value;
-    const cadastro = {
-        id: parseInt(cadastroId, 10),
-        isComplete: document.getElementById('edit-isComplete').checked,
-        name: document.getElementById('edit-name').value.trim()
-    };
-
-    fetch(`${uri}/${cadastroId}`, {
-        method: 'PUT',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(cadastro)
-    })
-        .then(() => getCadastro())
-        .catch(error => console.error('Unable to update item.', error));
-
-    closeInput();
-
-    return false;
 }
 
 nomeE.addEventListener('keyup', () =>{
@@ -132,6 +94,7 @@ function gravar(){
         msgErroEmail.setAttribute('style', 'display: none');
         msgErroEmail.innerHTML = '';
         addCadastro();
+        labelNome.focus();
         setTimeout(()=>{
             location.href = "../cadastro/cadastro.html";
         },3000)
