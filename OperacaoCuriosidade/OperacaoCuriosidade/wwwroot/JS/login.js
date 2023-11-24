@@ -60,9 +60,36 @@ function logar(){
     }
 
     if(validEmail == true && validSenha == true){
-        setTimeout(()=>{
-            location.href = "../index/index.html";
-        },1000)
+        getUsuario();
     }
 
+}
+
+const uri = 'https://localhost:7149/api/Usuario';
+
+let todos = [];
+
+function getUsuario(){
+    fetch(uri)
+    .then(response => response.json())
+    .then(data => verificarUsuario(data))
+    .catch(error => console.error('Unable to get items.',error))
+}
+
+function verificarUsuario(data){
+    let valorEmail = email.value;
+    let valorSenha = senha.value;
+
+    data.forEach(usuario =>{
+        let testEmail = usuario.email; 
+        let testSenha = usuario.senha;
+
+        if(valorEmail===testEmail && valorSenha===testSenha){
+            setTimeout(()=>{
+                location.href = "../index/index.html";
+            },1000)
+        }
+    })
+
+    todos = data;
 }

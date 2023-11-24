@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\cadastroLogin.css",
+      "PackagePath": "staticwebassets\\HTML\\cadastroLogin\\cadastroLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\cadastroLogin.html",
+      "PackagePath": "staticwebassets\\HTML\\cadastroLogin\\cadastroLogin.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\mediaQueryCadastroLogin.css",
+      "PackagePath": "staticwebassets\\HTML\\cadastroLogin\\mediaQueryCadastroLogin.css"
+    },
+    {
       "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\cadastro.css",
       "PackagePath": "staticwebassets\\HTML\\cadastro\\cadastro.css"
     },
@@ -95,6 +107,10 @@
     {
       "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.html",
       "PackagePath": "staticwebassets\\HTML\\relatorio\\relatorio.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\cadastroLogin.js",
+      "PackagePath": "staticwebassets\\JS\\cadastroLogin.js"
     },
     {
       "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\listarCadastro.js",

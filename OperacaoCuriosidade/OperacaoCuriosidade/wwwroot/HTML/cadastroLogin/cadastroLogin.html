@@ -10,7 +10,7 @@
 </head>
 <body>
     <main>
-        <section id="cadastroLogin">
+        <section id="cadastroLogin" action="javascript:void(0);" method="POST" onsubmit="cadastrar()">
             <form>
                 <div id="divlogin">     
                     <div id="msgErroNome"></div>
@@ -59,6 +59,7 @@
         </section>
     </main>
     
-    <script src="../../JS/cadastroLogin.js"></script>
+    <script src="../../JS/cadastroLogin.js" asp-append-version="true"></script>
+    <script type="text/javascript"></script>
 </body>
 </html>

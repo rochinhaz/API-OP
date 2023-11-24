@@ -10,5 +10,6 @@ namespace OperacaoCuriosidade.Models
         }
 
         public DbSet<Cadastro> Cadastro { get; set; } = null!;
+        public DbSet<Usuario> Usuario { get; set; } = null!;
     }
 }

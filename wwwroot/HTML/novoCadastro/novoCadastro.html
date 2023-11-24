@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operação Curiosidade</title>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="novocadastro.css">
+    <link rel="stylesheet" href="mediaQueryNovoCadastro.css">
+
+</head>
+
+<body>
+
+    <header class="container">
+            <h2>Novo Cadastro </h2>
+            <div>
+                <input type="radio" name="ativo" id="iativo" onchange="selecionarInput (event)">Ativo </input>
+            </div>
+
+    </header>
+
+    <main>
+        <form action="javascript:void(0);" method="POST" onsubmit="gravar()">
+            
+            <fieldset>
+                <legend>1º Fatos e Dados</legend>
+                <div id="msgErro"></div>
+                <div id="msgValido"></div>
+                <p>
+                    <label for="inome" id="labelnome">Nome:</label><br>
+                    <input type="text" name="nome" id="inome" maxlength="40" required>
+                </p>
+
+                <p>
+                    <label for="iidade">Idade:</label>
+                    <label id="labelemail" for="iemail">E-mail:</label><br>
+                    <input type="text" name="idade" id="iidade">
+                    <input type="text" name="email" id="iemail" autocomplete="email">
+                </p>
+
+                <p>
+                    <label for="iendereco">Endereço:</label><br>
+                    <input type="text" name="endereco" id="iendereco">
+                </p>
+
+                <p>
+                    <label for="ioutrasinfo">Outras Informações</label><br>
+                    <textarea name="outrasinfo" id="ioutrasinfo" cols="30" rows="10"></textarea>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>2º Interesses</legend>
+                <p>
+                    <textarea name="interesses" id="iinteresses" cols="30" rows="10"></textarea>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>3º Sentimentos</legend>
+                <p>
+                    <textarea name="sentimentos" id="isentimentos" cols="30" rows="10"></textarea>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>4º Valores</legend>
+                <p>
+                    <textarea name="valores" id="ivalores" cols="30" rows="10"></textarea>
+                </p>
+            </fieldset>
+           
+        </form>
+    </main>
+
+    <footer class="container">
+            <input type="button" value="GRAVAR" onclick="gravar()">
+    </footer>
+    
+    <script src="../../JS/novoCadastro.js" asp-append-version="true"></script>
+<<<<<<<< HEAD:OperacaoCuriosidade/OperacaoCuriosidade/wwwroot/HTML/novoCadastro/novoCadastro.html
+    <script type="text/javascript"></script>
+========
+    <script type="text/javascript">getCadastro()</script>
+>>>>>>>> 5e30758d00d9bb8a4de19f000f302d549137ce64:wwwroot/HTML/novoCadastro/novoCadastro.html
+
+</body>
+</html>

@@ -143,9 +143,36 @@ function cadastrar(){
     }
 
     if(validEmail == true && validSenha == true && validEmailConfirma == true && validSenhaConfirma == true && validNome == true){
+        addUsuario();
         setTimeout(()=>{
             location.href = "../login/login.html";
         },1000)
     }
 
+}
+
+const uri = 'https://localhost:7149/api/Usuario';
+
+function addUsuario(){
+    let addEmailTextbox = document.getElementById('lemail');
+    let addSenhaTextbox = document.getElementById('lsenha');
+    const  usuario = {
+        email: addEmailTextbox.value.trim(),
+        senha: addSenhaTextbox.value.trim()
+    };
+
+    fetch(uri, {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(usuario)
+      })
+        .then(response => response.json())
+        .then(() => {
+          addEmailTextbox.value = '';
+          addSenhaTextbox.value = '';
+        })
+        .catch(error => console.error('Unable to add item.', error));
 }

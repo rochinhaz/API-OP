@@ -35,7 +35,7 @@
                         <input type="password" name="lsenha" id="lsenha" placeholder="Senha" required minlength="6" maxlength="20">
                     </div>
                     <div id="entrar">
-                        <input type="button" onclick="logar(); return false" value="ENTRAR">
+                        <input type="button" onclick="logar()" value="ENTRAR"> <!--onclick="logar(); retrun false"-->
                     </div>
                     <div id="cadastrese">
                         <a href="../cadastroLogin/cadastroLogin.html">Cadastre-se</a>
@@ -46,6 +46,7 @@
         </section>
     </main>
 
-    <script src="../../JS/login.js"></script>
+    <script src="../../JS/login.js" asp-append-version="true"></script>
+    <script type="text/javascript"></script>
 </body>
 </html>
