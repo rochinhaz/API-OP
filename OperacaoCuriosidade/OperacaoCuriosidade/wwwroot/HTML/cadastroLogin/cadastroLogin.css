@@ -13,7 +13,7 @@
 
     div#divlogin {
         background-color: white;
-        height: 550px;
+        height: 510px;
         width: 550px;
         border: 1px solid black;
         border-radius: 5px;
@@ -26,16 +26,20 @@
              
     }
 
-    div#campoNome{
-        margin-top: 80px;
+    div#dados{
+        margin-top: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     div.campo{
         border: 2px solid black;
         display: block;
         width: 250px;
-        height: 40px;
-        margin: 20px 150px auto;
+        height: 30px;
+        margin: 15px 150px auto;
     }
 
     div.campo>input {
@@ -52,10 +56,10 @@
     div#cadastrar {
         display: block;
         width: 250px;
-        height: 40px;
+        height: 30px;
         background-color: black;
         border-radius: 5px;
-        margin: 50px 150px auto;
+        margin: 30px 150px auto;
         border: 2px solid black;
 
     }
@@ -65,7 +69,7 @@
         border: none;
         border: 0px;
         margin-top: 14px;
-        padding: 12px 88px;
+        padding: 6px 88px;
         color: white;
         background-color: black;
         text-align: center;

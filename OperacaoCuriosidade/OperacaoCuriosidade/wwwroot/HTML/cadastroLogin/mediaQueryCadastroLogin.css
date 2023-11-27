@@ -3,12 +3,15 @@
 @media screen and (min-width: 220px) and (max-width: 767px){
 
     div#divlogin {
-        height: 250px;
+        height: 400px;
         width: 300px;     
     }
 
-    div#logo_login>img{
-        height: 50px;
+    div#dados{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     div.campo{
@@ -17,14 +20,68 @@
         margin: 20px 60px auto;
     }
 
-    div#entrar {
+    div#cadastrar {
         display: block;
         width: 180px;
         height: 25px;
-        margin: 20px 60px auto;
+        margin: 30px 60px auto;
     }
 
-    div#entrar>input{
-        padding: 5px 64.5px;    
+    div#cadastrar>input{
+        padding: 5px 52.5px;    
+    }
+
+    div#voltar>a{
+        font-size: 14px;
+    }
+
+    #msgErroNome{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    #msgValidoNome{
+        font-size: 9px;
+        padding: 4px;
+    }
+
+    #msgErroSenha{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    #msgValidoSenha{
+        font-size: 9px;
+        padding: 4px;
+    }
+
+    #msgErroEmail{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    #msgValidoEmail{
+        font-size: 9px;
+        padding: 4px;
+    }
+
+    #msgErroSenhaConfirma{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    #msgValidoSenhaConfirma{
+        font-size: 9px;
+        padding: 4px;
+    }
+
+    #msgErroEmailConfirma{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    #msgValidoEmailConfirma{
+        font-size: 9px;
+        padding: 4px;
     }
 }

@@ -25,21 +25,25 @@
                     <div id="msgValidoEmail"></div>
                     <div id="msgErroSenha"></div>
                     <div id="msgValidoSenha"></div>
+                    <div id="msgErroUsuario"></div>
+                    <div id="msgValidoUsuario"></div>
 
-                    <div class="campo">
-
-                        <input type="email" name="lemail" id="lemail"  placeholder="Email" required>
-                    </div>
-                    <div class="campo">
+                    <div id="dados">
+                        <div class="campo">
+                            <input type="email" name="lemail" id="lemail"  placeholder="Email" required>
+                        </div>
+                        <div class="campo">
                         
-                        <input type="password" name="lsenha" id="lsenha" placeholder="Senha" required minlength="6" maxlength="20">
+                            <input type="password" name="lsenha" id="lsenha" placeholder="Senha" required minlength="6" maxlength="20">
+                        </div>
+                        <div id="entrar">
+                            <input type="button" onclick="logar()" value="ENTRAR"> <!--onclick="logar(); retrun false"-->
+                        </div>
+                        <div id="cadastrese">
+                            <a href="../cadastroLogin/cadastroLogin.html">Cadastre-se</a>
+                        </div>
                     </div>
-                    <div id="entrar">
-                        <input type="button" onclick="logar()" value="ENTRAR"> <!--onclick="logar(); retrun false"-->
-                    </div>
-                    <div id="cadastrese">
-                        <a href="../cadastroLogin/cadastroLogin.html">Cadastre-se</a>
-                    </div>
+
                 </div>
         
             </form>

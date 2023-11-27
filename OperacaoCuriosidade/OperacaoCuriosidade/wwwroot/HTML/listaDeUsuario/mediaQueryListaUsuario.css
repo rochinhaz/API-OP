@@ -30,6 +30,49 @@
     td{
         font-size: 9px ;
     }
+
+    .editButton{
+        padding: 3px;
+        width: 38px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .deleteButton{
+        padding: 3px;
+        width: 38px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    #editForm {
+        margin-bottom: 30px;
+    }
+    
+    #editForm>h3{
+        margin-left: 15px;
+    }
+    
+    .edit{
+        padding: 4px;
+    }
+    
+    #edit-name{
+        margin-left: 15px;
+        width: 60px;
+        margin-right: 5px;
+    }
+    
+    #edit-email{
+        width: 120px;
+        margin-left: 5px;
+    }
+    
+    #edit-atividade{
+        width: 35px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 @media screen and (min-width: 767px) and (max-width: 992px){
@@ -39,6 +82,45 @@
 
     h2{
         font-size: 18px;
+    }
+
+    .editButton{
+        padding: 3px;
+        width: 50px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .deleteButton{
+        padding: 3px;
+        width: 50px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    #editForm {
+        margin-bottom: 30px;
+    }
+    
+    #editForm>h3{
+        margin-left: 15px;
+    }
+    
+    .edit{
+        padding: 5px;
+    }
+    
+    #edit-name{
+        margin-left: 30px;
+        width: 160px;
+    }
+    
+    #edit-email{
+        width: 250px;
+    }
+    
+    #edit-atividade{
+        width: 60px;
     }
 
 }

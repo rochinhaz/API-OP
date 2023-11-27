@@ -24,35 +24,40 @@
                     <div id="msgErroSenhaConfirma"></div>
                     <div id="msgValidoSenhaConfirma"></div>
 
-                    <div class="campo" id="campoNome">
+                    <div id="dados">
 
-                        <input type="text" name="lnome" id="lnome"  placeholder="Nome" required>
-                    </div>
-
-                    <div class="campo">
-
-                        <input type="email" name="lemail" id="lemail"  placeholder="Email" required>
-                    </div>
-
-                    <div class="campo">
+                        <div class="campo">
+                            <input type="text" name="lnome" id="lnome"  placeholder="Nome" required>
+                        </div>
                         
-                        <input type="email" name="cemail" id="cemail" placeholder="Confirmar Email" required>
-                    </div>
-                    <div class="campo">
+                        <div class="campo">
+                            <input type="email" name="lemail" id="lemail"  placeholder="Email" required>
+                        </div>
 
-                        <input type="password" name="lsenha" id="lsenha"  placeholder="Senha" required minlength="6" maxlength="20">
-                    </div>
-                    
-                    <div class="campo">
+                        <div class="campo">
                         
-                        <input type="password" name="csenha" id="csenha" placeholder="Confirmar Senha" required minlength="6" maxlength="20">
+                            <input type="email" name="cemail" id="cemail" placeholder="Confirmar Email" required>
+                        </div>
+
+                        <div class="campo">
+                            <input type="password" name="lsenha" id="lsenha"  placeholder="Senha" required minlength="6" maxlength="20">
+                        </div>
+                        
+                        <div class="campo">
+                        
+                            <input type="password" name="csenha" id="csenha" placeholder="Confirmar Senha" required minlength="6" maxlength="20">
+                        </div>
+
+                        <div id="cadastrar">
+                            <input type="button" onclick="cadastrar(); return false" value="CADASTRAR">
+                        </div>
+
+                        <div id="voltar">
+                            <a href="../login/login.html">Voltar</a>
+                        </div>
+
                     </div>
-                    <div id="cadastrar">
-                        <input type="button" onclick="cadastrar(); return false" value="CADASTRAR">
-                    </div>
-                    <div id="voltar">
-                        <a href="../login/login.html">Voltar</a>
-                    </div>
+
                 </div>
         
             </form>

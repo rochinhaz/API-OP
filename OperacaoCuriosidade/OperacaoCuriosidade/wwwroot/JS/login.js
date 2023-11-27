@@ -56,7 +56,7 @@ function logar(){
         msgErroEmail.setAttribute('style', 'display: block');
         msgErroEmail.innerHTML = '<strong>Coloque um email válido</strong>';
         msgValidoEmail.setAttribute('style', 'display: none');
-        msgValido.innerHTML = '';
+        msgValidoEmail.innerHTML = '';
     }
 
     if(validEmail == true && validSenha == true){
@@ -79,15 +79,38 @@ function getUsuario(){
 function verificarUsuario(data){
     let valorEmail = email.value;
     let valorSenha = senha.value;
+    let validacaoUsuario = false;
 
     data.forEach(usuario =>{
         let testEmail = usuario.email; 
         let testSenha = usuario.senha;
 
         if(valorEmail===testEmail && valorSenha===testSenha){
+            validacaoUsuario = true;
             setTimeout(()=>{
                 location.href = "../index/index.html";
             },1000)
+        } else{
+            validacaoUsuario = false;
+        }
+        if (validacaoUsuario == true){
+            msgValidoEmail.setAttribute('style', 'display: none');
+            msgValidoEmail.innerHTML = '';
+            msgValidoSenha.setAttribute('style', 'display: none');
+            msgValidoSenha.innerHTML = '';
+            msgValidoUsuario.setAttribute('style', 'display: block');
+            msgValidoUsuario.innerHTML = '<strong>Usuario valido</strong>';
+            msgErroUsuario.setAttribute('style', 'display: none');
+            msgErroUsuario.innerHTML = '';
+        }else{
+            msgValidoEmail.setAttribute('style', 'display: none');
+            msgValidoEmail.innerHTML = '';
+            msgValidoSenha.setAttribute('style', 'display: none');
+            msgValidoSenha.innerHTML = '';
+            msgErroUsuario.setAttribute('style', 'display: block');
+            msgErroUsuario.innerHTML = '<strong>Usuario não cadastrado</strong>';
+            msgValidoUsuario.setAttribute('style', 'display: none');
+            msgValidoUsuario.innerHTML = '';
         }
     })
 

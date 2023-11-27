@@ -22,7 +22,6 @@ input[type='submit'], button, [aria-label] {
     color: white;
     background-color: rgb(45, 45, 165);
     border: none;
-
 }
 
 .deleteButton{

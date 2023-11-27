@@ -3,12 +3,19 @@
 @media screen and (min-width: 220px) and (max-width: 767px){
 
     div#divlogin {
-        height: 250px;
+        height: 400px;
         width: 300px;     
     }
 
     div#logo_login>img{
-        height: 50px;
+        height: 70px;
+    }
+
+    div#dados{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     div.campo{
@@ -26,5 +33,39 @@
 
     div#entrar>input{
         padding: 5px 64.5px;    
+    }
+
+    div#cadastrese>a{
+        font-size: 14px;
+    }
+
+    #msgErroSenha{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    #msgValidoSenha{
+        font-size: 9px;
+        padding: 4px;
+    }
+
+    #msgErroEmail{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    #msgValidoEmail{
+        font-size: 9px;
+        padding: 4px;
+    }
+
+    #msgErroUsuario{
+        font-size: 9px;
+        padding: 4px;
+    }
+    
+    #msgValidoUsuario{
+        font-size: 9px;
+        padding: 4px;
     }
 }

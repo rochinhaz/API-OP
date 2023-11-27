@@ -129,6 +129,20 @@
         width: 20vw;
         height: 100vh;
     }
+
+    nav > #logoNav {
+        height: 60px;
+        gap: 10px;
+        margin-left: 15px;
+    }
+
+    nav >#logoNav> #pLogoNav{
+        font-size: 18px;
+    }
+
+    nav >#logoNav> #p2LogoNav{
+        font-size: 9px;
+    }
     
     nav>hr{
         margin-left: 10px;

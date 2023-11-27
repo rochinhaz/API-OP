@@ -94,52 +94,64 @@ function cadastrar(){
         msgValidoNome.innerHTML = '';
     }
 
-    if(validSenha == true){
+    if(validSenha == true && validSenhaConfirma == true){
+        msgValidoSenha.setAttribute('style', 'display: block');
+        msgValidoSenha.innerHTML = '<strong>Senha Valida e iguais</strong>';
+        msgErroSenha.setAttribute('style', 'display: none');
+        msgErroSenha.innerHTML = '';
+        msgErroSenhaConfirma.setAttribute('style', 'display: none');
+        msgErroSenhaConfirma.innerHTML = '';
+        msgValidoSenhaConfirma.setAttribute('style', 'display: none');
+        msgValidoSenhaConfirma.innerHTML = '';
+    }else if(validSenha == true && validSenhaConfirma == false){
         msgValidoSenha.setAttribute('style', 'display: block');
         msgValidoSenha.innerHTML = '<strong>Senha Valida</strong>';
         msgErroSenha.setAttribute('style', 'display: none');
         msgErroSenha.innerHTML = '';
-    }else{
-        msgErroSenha.setAttribute('style', 'display: block');
-        msgErroSenha.innerHTML = '<strong>Coloque uma senha válida</strong>';
-        msgValidoSenha.setAttribute('style', 'display: none');
-        msgValidoSenha.innerHTML = '';
-    }
-
-    if(validSenhaConfirma == true){
-        msgValidoSenhaConfirma.setAttribute('style', 'display: block');
-        msgValidoSenhaConfirma.innerHTML = '<strong>Senhas são iguais</strong>';
-        msgErroSenhaConfirma.setAttribute('style', 'display: none');
-        msgErroSenhaConfirma.innerHTML = '';
-    }else{
         msgErroSenhaConfirma.setAttribute('style', 'display: block');
         msgErroSenhaConfirma.innerHTML = '<strong>As senhas são diferentes</strong>';
         msgValidoSenhaConfirma.setAttribute('style', 'display: none');
         msgValidoSenhaConfirma.innerHTML = '';
+    } else{
+        msgErroSenha.setAttribute('style', 'display: block');
+        msgErroSenha.innerHTML = '<strong>Coloque uma senha válida</strong>';
+        msgValidoSenha.setAttribute('style', 'display: none');
+        msgValidoSenha.innerHTML = '';
+        msgValidoSenhaConfirma.setAttribute('style', 'display: none');
+        msgValidoSenhaConfirma.innerHTML = '';
+        msgErroSenhaConfirma.setAttribute('style', 'display: none');
+        msgErroSenhaConfirma.innerHTML = '';
     }
 
-    if(validEmail == true){
+    if(validEmail == true && validEmailConfirma == true){
+        msgValidoEmail.setAttribute('style', 'display: block');
+        msgValidoEmail.innerHTML = '<strong>Email válido e confirmado</strong>';
+        msgErroEmail.setAttribute('style', 'display: none');
+        msgErroEmail.innerHTML = '';
+        msgValidoEmailConfirma.setAttribute('style', 'display: none');
+        msgValidoEmailConfirma.innerHTML = '';
+        msgErroEmailConfirma.setAttribute('style', 'display: none');
+        msgErroEmailConfirma.innerHTML = '';
+    }else if(validEmail == true && validEmailConfirma == false){
         msgValidoEmail.setAttribute('style', 'display: block');
         msgValidoEmail.innerHTML = '<strong>Email válido</strong>';
         msgErroEmail.setAttribute('style', 'display: none');
         msgErroEmail.innerHTML = '';
-    }else{
-        msgErroEmail.setAttribute('style', 'display: block');
-        msgErroEmail.innerHTML = '<strong>Coloque um email válido</strong>';
-        msgValidoEmail.setAttribute('style', 'display: none');
-        msgValido.innerHTML = '';
-    }
-
-    if(validEmailConfirma == true){
-        msgValidoEmailConfirma.setAttribute('style', 'display: block');
-        msgValidoEmailConfirma.innerHTML = '<strong>Os emails são iguais</strong>';
-        msgErroEmailConfirma.setAttribute('style', 'display: none');
-        msgErroEmailConfirma.innerHTML = '';
-    }else{
         msgErroEmailConfirma.setAttribute('style', 'display: block');
         msgErroEmailConfirma.innerHTML = '<strong>Os emails são diferentes</strong>';
         msgValidoEmailConfirma.setAttribute('style', 'display: none');
-        msgValidoConfirma.innerHTML = '';
+        msgValidoEmailConfirma.innerHTML = '';
+    }
+    
+    else{
+        msgErroEmail.setAttribute('style', 'display: block');
+        msgErroEmail.innerHTML = '<strong>Coloque um email válido</strong>';
+        msgValidoEmail.setAttribute('style', 'display: none');
+        msgValidoEmail.innerHTML = '';
+        msgErroEmailConfirma.setAttribute('style', 'display: none');
+        msgErroEmailConfirma.innerHTML = '';
+        msgValidoEmailConfirma.setAttribute('style', 'display: none');
+        msgValidoEmailConfirma.innerHTML = '';
     }
 
     if(validEmail == true && validSenha == true && validEmailConfirma == true && validSenhaConfirma == true && validNome == true){
