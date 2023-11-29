@@ -168,7 +168,9 @@ const uri = 'https://localhost:7149/api/Usuario';
 function addUsuario(){
     let addEmailTextbox = document.getElementById('lemail');
     let addSenhaTextbox = document.getElementById('lsenha');
+    let addNomeTextbox = document.getElementById('lnome');
     const  usuario = {
+        nome: addNomeTextbox.value.trim(),
         email: addEmailTextbox.value.trim(),
         senha: addSenhaTextbox.value.trim()
     };
@@ -183,6 +185,7 @@ function addUsuario(){
         })
         .then(response => response.json())
         .then(() => {
+          addNomeTextbox.value = '';
           addEmailTextbox.value = '';
           addSenhaTextbox.value = '';
         })

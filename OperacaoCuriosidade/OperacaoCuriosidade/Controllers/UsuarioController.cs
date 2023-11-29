@@ -57,6 +57,7 @@ namespace OperacaoCuriosidade.Controllers
                 return NotFound();
             }
 
+            usuario.Nome = usuarioDTO.Nome;
             usuario.Email = usuarioDTO.Email;
             usuario.Senha = usuarioDTO.Senha;
 
@@ -79,6 +80,7 @@ namespace OperacaoCuriosidade.Controllers
         {
             var usuario = new Usuario
             {
+                Nome = usuarioDTO.Nome,
                 Email = usuarioDTO.Email,
                 Senha = usuarioDTO.Senha
             };
@@ -116,6 +118,7 @@ namespace OperacaoCuriosidade.Controllers
        new UsuarioDTO
        {
            Id = usuario.Id,
+           Nome = usuario.Nome,
            Email = usuario.Email,
            Senha = usuario.Senha
        };
