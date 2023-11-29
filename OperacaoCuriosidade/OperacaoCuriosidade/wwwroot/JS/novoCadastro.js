@@ -59,8 +59,8 @@ nomeE.addEventListener('keyup', () =>{
 
 function validarEmail (emailE) {
     var emailPattern =  /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
-     return emailPattern.test(emailE); 
-  }
+    return emailPattern.test(emailE); 
+}
 
 emailE.addEventListener('keyup', () =>{
     if(validarEmail(emailE.value) == false){

@@ -90,7 +90,7 @@ function verificarUsuario(data){
             setTimeout(()=>{
                 location.href = "../index/index.html";
             },1000)
-        } else{
+        }else{
             validacaoUsuario = false;
         }
         if (validacaoUsuario == true){

@@ -180,7 +180,7 @@ function addUsuario(){
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(usuario)
-      })
+        })
         .then(response => response.json())
         .then(() => {
           addEmailTextbox.value = '';
