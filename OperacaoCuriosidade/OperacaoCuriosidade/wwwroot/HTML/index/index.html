@@ -15,12 +15,12 @@
     
     <header>
         <div class="containerhinicio">
-            <input type="search" name="ipesquisa" id="ipesquisa" placeholder="Pesquisar...">
-            <button id="btpesquisa"> <span class="material-symbols-outlined">search</span> </button>
+            <input type="search" name="ipesquisa" id="ipesquisa" placeholder="Pesquisar..." onsubmit="getCadastroPes()">
+            <button id="btpesquisa" onclick="getCadastroPes()"> <span class="material-symbols-outlined">search</span> </button>
         </div>
         <div class="containerhfinal">
             <img src="../imagens/logo_login.png" alt="">
-            <p id="nomeUser"></p>
+            <p id="nomeUser">Usuario</p>
             <a href="../login/login.html">SAIR</a>
         </div>
     </header>
@@ -47,7 +47,7 @@
         <iframe src="../home/home.html" name="tela" id="tela" frameborder="0" scrolling="auto">seu navegador não é compativel com isso</iframe>
     </main>
 
-    <script src="../../JS/login.js" asp-append-version="true"></script>
-    <script type="text/javascript">nomeDoUsuario()</script>
+    <script src="../../JS/listarCadastro.js" asp-append-version="true"></script>
+    <script type="text/javascript"></script>
 </body>
 </html>

@@ -82,7 +82,6 @@ function verificarUsuario(data){
     let validacaoUsuario = false;
 
     data.forEach(usuario =>{
-        let testNome = usuario.nome;
         let testEmail = usuario.email; 
         let testSenha = usuario.senha;
 
@@ -117,14 +116,3 @@ function verificarUsuario(data){
 
     todos = data;
 }
-
-function nomeDoUsuario(){
-    let nomeUsuario = document.getElementById('nomeUser');
-    var textoNome = document.createTextNode(nomeNome);
-    nomeUsuario.appendChild(textoNome);
-}
-/*
-    let nomeUsuario = document.getElementById('nomeUser');
-    var textoNome = document.createTextNode(testNome);
-    nomeUsuario.appendChild(textoNome);
-*/

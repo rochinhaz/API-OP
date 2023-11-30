@@ -6,7 +6,6 @@ let validNome = false;
 let emailE = document.getElementById('iemail');
 let labelEmail = document.getElementById('labelemail');
 let validEmail = false;
-
 let msgErroNome = document.getElementById('msgErroNome');
 let msgValidoNome = document.getElementById('msgValidoNome');
 let msgErroEmail = document.getElementById('msgErroEmail');

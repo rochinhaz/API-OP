@@ -1,6 +1,8 @@
 const uri = 'https://localhost:7149/api/Cadastro';
 let todos = [];
 
+let msgResultado = document.getElementById('resultadoPesquisa');
+
 function getCadastro(){
     fetch(uri)
     .then(response => response.json())
@@ -57,7 +59,7 @@ function closeInput() {
 
 function _displayCount(cadastroCount) {
     const nome = (cadastroCount === 1) ? 'to-do' : 'to-dos';
-  }
+}
 
 function _displayCadastro(data){
   const tBody = document.querySelector('.todos');
@@ -102,45 +104,24 @@ function _displayCadastro(data){
   todos = data;
 }
 
-/*function getCadastroPesquisa(){
+function getCadastroPes(){
   fetch(uri)
-  .then(response => response.json())
-  .then(data => resultadoPesquisa(data))
-  .catch(error => console.error('Unable to get items.',error))
+    .then(response => response.json())
+    .then(data => pesquisaCadastro(data))
+    .catch(error => console.error('Unable to get items.',error))
 }
 
-function resultadoPesquisa(data){
-  const tBody = document.getElementById('tabelaPesquisa');
-  tBody.innerHTML = '';
+function pesquisaCadastro(data){
+  let pesquisa = document.getElementById("ipesquisa").value;
 
   data.forEach(cadastro => {
+    let testeNome = cadastro.nome;
+    let testeEmail = cadastro.email;
+    let textoResultado = `Usuario Encontrado: \n - ID:${cadastro.id}  \n -nome: ${testeNome} \n -email: ${testeEmail} \n -atividade: ${cadastro.atividade}`
+    if(pesquisa === testeNome || pesquisa === testeEmail){
+      window.alert(textoResultado);
+    }
+  })
+  //window.open('../resultadoPesquisa/resultadoPesquisa.html', 'tela');
+}
 
-    let editButton = buttonE.cloneNode(false);
-    editButton.innerText = 'Editar';
-    editButton.setAttribute('onclick', `displayEditForm(${cadastro.id})`);
-    buttonE.setAttribute('class', 'editButton');
-
-    let deleteButton = buttonD.cloneNode(false);
-    deleteButton.innerText = 'Deletar';
-    deleteButton.setAttribute('onclick', `deleteItem(${cadastro.id})`);
-    buttonD.setAttribute('class', 'deleteButton');
-
-    let tr = tBody.insertRow();
-    
-    let td1 = tr.insertCell(0);
-    let textNome = document.createTextNode(cadastro.nome);
-    td1.appendChild(textNome);
-
-    let td2 = tr.insertCell(1);
-    let textEmail = document.createTextNode(cadastro.email);
-    td2.appendChild(textEmail);
-
-    let td3 = tr.insertCell(2);
-    let textAtividade = document.createTextNode(cadastro.atividade);
-    td3.appendChild(textAtividade);
-    td3.appendChild(editButton);
-    td3.appendChild(deleteButton);
-  });
-
-  todos = data;
-}*/
