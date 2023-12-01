@@ -1,7 +1,7 @@
 const uri = 'https://localhost:7149/api/Cadastro';
 let todos = [];
 
-let msgResultado = document.getElementById('resultadoPesquisa');
+let pesquisa = document.getElementById("ipesquisa");
 
 function getCadastro(){
     fetch(uri)
@@ -104,24 +104,36 @@ function _displayCadastro(data){
   todos = data;
 }
 
-function getCadastroPes(){
+function getCadastroPesquisa(){
   fetch(uri)
     .then(response => response.json())
-    .then(data => pesquisaCadastro(data))
+    .then(data => {
+      let n=0;
+      let seletor = false;
+      var arrayCadastros = []
+      for(let i =0; i<data.length; i++){
+        if(pesquisa.value == data[i].nome){
+          arrayCadastros[n]={id:data[i].id, nome:data[i].nome, email:data[i].email, atividade:data[i].atividade}
+          n++
+          seletor = true;
+        }
+      }
+      if(seletor == true){
+        return pesquisaCadastroEncontrado(arrayCadastros)
+      }else{
+        return pesquisaCadastroNaoEncontrado()
+      }
+    })
     .catch(error => console.error('Unable to get items.',error))
 }
 
-function pesquisaCadastro(data){
-  let pesquisa = document.getElementById("ipesquisa").value;
+function pesquisaCadastroEncontrado(imprimi){
+  for(let x =0; x<imprimi.length; x++){
+    window.alert('Usuario Encontrado: \n -Id:'+imprimi[x].id+   '\n -Nome:'+imprimi[x].nome+'\n -Email: '+imprimi[x].email+' \n -Atividade: '+imprimi[x].atividade)
+  }
+}
 
-  data.forEach(cadastro => {
-    let testeNome = cadastro.nome;
-    let testeEmail = cadastro.email;
-    let textoResultado = `Usuario Encontrado: \n - ID:${cadastro.id}  \n -nome: ${testeNome} \n -email: ${testeEmail} \n -atividade: ${cadastro.atividade}`
-    if(pesquisa === testeNome || pesquisa === testeEmail){
-      window.alert(textoResultado);
-    }
-  })
-  //window.open('../resultadoPesquisa/resultadoPesquisa.html', 'tela');
+function pesquisaCadastroNaoEncontrado(){
+  window.alert('Usuario Nao Encontrado')
 }
 
