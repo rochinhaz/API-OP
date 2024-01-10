@@ -22,9 +22,33 @@
             <h3>Editar</h3>
             <form action="javascript:void(0);" onsubmit="updateCadastro()">
                 <input type="hidden" id="edit-id" class="edit">
+                <label for="edit-name" id="labeledit-name">Nome:</label>
                 <input type="text" id="edit-name" class="edit">
+
+                <label for="edit-email" id="labeledit-email">Email:</label>
                 <input type="text" id="edit-email" class="edit">
-                <input type="text" id="edit-atividade" class="edit">
+
+                <label for="edit-atividade" id="labeledit-atividade">Atividade:</label>
+                <input type="text" id="edit-atividade" class="edit"><br>
+
+                <label for="edit-idade" id="labeledit-idade">Idade:</label>
+                <input type="text" id="edit-idade" class="edit">
+
+                <label for="edit-endereco" id="labeledit-endereco">Endereco:</label>
+                <input type="text" id="edit-endereco" class="edit"><br>
+
+                <label for="edit-outrasInfo" id="labeledit-outrasInfo">Outras Informações:</label>
+                <input type="text" id="edit-outrasInfo" class="edit">
+
+                <label for="edit-interesses" id="labeledit-interesses">Interesses:</label>
+                <input type="text" id="edit-interesses" class="edit"><br>
+
+                <label for="edit-sentimentos" id="labeledit-sentimentos">Sentimentos:</label>
+                <input type="text" id="edit-sentimentos" class="edit">
+
+                <label for="edit-valores" id="labeledit-valores">Valores:</label>
+                <input type="text" id="edit-valores" class="edit"><br>
+
                 <input type="submit" id="edit-salvar" value="Salvar" class="edit">
                 <a onclick="closeInput()" aria-label="Close">&#10006;</a>
             </form>
@@ -49,6 +73,11 @@
 
     <script src="../../JS/listarCadastro.js" asp-append-version="true"></script>
     <script type="text/javascript">getCadastro()</script>
+    <script src="../../JS/deletarCadastro.js" asp-append-version="true"></script>
+    <script type="text/javascript"></script>
+    <script src="../../JS/editarCadastro.js" asp-append-version="true"></script>
+    <script type="text/javascript"></script>
+    
 
 </body>
 </html>

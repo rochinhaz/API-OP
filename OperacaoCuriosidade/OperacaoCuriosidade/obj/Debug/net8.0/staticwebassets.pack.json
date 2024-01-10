@@ -1,128 +1,168 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\cadastroLogin.css",
-      "PackagePath": "staticwebassets\\HTML\\cadastroLogin\\cadastroLogin.css"
-    },
-    {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\cadastroLogin.html",
-      "PackagePath": "staticwebassets\\HTML\\cadastroLogin\\cadastroLogin.html"
-    },
-    {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\mediaQueryCadastroLogin.css",
-      "PackagePath": "staticwebassets\\HTML\\cadastroLogin\\mediaQueryCadastroLogin.css"
-    },
-    {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\cadastro.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\cadastro.css",
       "PackagePath": "staticwebassets\\HTML\\cadastro\\cadastro.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\cadastro.html",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\cadastro.html",
       "PackagePath": "staticwebassets\\HTML\\cadastro\\cadastro.html"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\mediaQueryCadastro.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\mediaQueryCadastro.css",
       "PackagePath": "staticwebassets\\HTML\\cadastro\\mediaQueryCadastro.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\home.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\home.css",
       "PackagePath": "staticwebassets\\HTML\\home\\home.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\home.html",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\home.html",
       "PackagePath": "staticwebassets\\HTML\\home\\home.html"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\mediaQueryHome.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\mediaQueryHome.css",
       "PackagePath": "staticwebassets\\HTML\\home\\mediaQueryHome.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\favicon.ico",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\favicon.ico",
       "PackagePath": "staticwebassets\\HTML\\imagens\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\logo_login.png",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\logo_login.png",
       "PackagePath": "staticwebassets\\HTML\\imagens\\logo_login.png"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\logo_nav.png",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\logo_nav.png",
       "PackagePath": "staticwebassets\\HTML\\imagens\\logo_nav.png"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\index.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\index.css",
       "PackagePath": "staticwebassets\\HTML\\index\\index.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\index.html",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\index.html",
       "PackagePath": "staticwebassets\\HTML\\index\\index.html"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\mediaQueryIndex.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\mediaQueryIndex.css",
       "PackagePath": "staticwebassets\\HTML\\index\\mediaQueryIndex.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\listaDeUsuario.html",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\listaDeUsuario.html",
       "PackagePath": "staticwebassets\\HTML\\listaDeUsuario\\listaDeUsuario.html"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\listaUsuario.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\listaUsuario.css",
       "PackagePath": "staticwebassets\\HTML\\listaDeUsuario\\listaUsuario.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\mediaQueryListaUsuario.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\mediaQueryListaUsuario.css",
       "PackagePath": "staticwebassets\\HTML\\listaDeUsuario\\mediaQueryListaUsuario.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\login.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\login.css",
       "PackagePath": "staticwebassets\\HTML\\login\\login.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\login.html",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\login.html",
       "PackagePath": "staticwebassets\\HTML\\login\\login.html"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\mediaQueryLogin.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\mediaQueryLogin.css",
       "PackagePath": "staticwebassets\\HTML\\login\\mediaQueryLogin.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\mediaQueryNovoCadastro.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\mediaQueryNovoCadastro.css",
       "PackagePath": "staticwebassets\\HTML\\novoCadastro\\mediaQueryNovoCadastro.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\novoCadastro.html",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\novoCadastro.html",
       "PackagePath": "staticwebassets\\HTML\\novoCadastro\\novoCadastro.html"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\novocadastro.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\novocadastro.css",
       "PackagePath": "staticwebassets\\HTML\\novoCadastro\\novocadastro.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\mediaQueryRelatorio.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoLogin\\mediaQueryNovoLogin.css",
+      "PackagePath": "staticwebassets\\HTML\\novoLogin\\mediaQueryNovoLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoLogin\\novoLogin.css",
+      "PackagePath": "staticwebassets\\HTML\\novoLogin\\novoLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoLogin\\novoLogin.html",
+      "PackagePath": "staticwebassets\\HTML\\novoLogin\\novoLogin.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\mediaQueryRelatorio.css",
       "PackagePath": "staticwebassets\\HTML\\relatorio\\mediaQueryRelatorio.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.css",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.css",
       "PackagePath": "staticwebassets\\HTML\\relatorio\\relatorio.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.html",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.html",
       "PackagePath": "staticwebassets\\HTML\\relatorio\\relatorio.html"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\cadastroLogin.js",
-      "PackagePath": "staticwebassets\\JS\\cadastroLogin.js"
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\resultadoPesquisa\\mediaQueryResultadoPesquisa.css",
+      "PackagePath": "staticwebassets\\HTML\\resultadoPesquisa\\mediaQueryResultadoPesquisa.css"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\listarCadastro.js",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\resultadoPesquisa\\resultadoPesquisa.css",
+      "PackagePath": "staticwebassets\\HTML\\resultadoPesquisa\\resultadoPesquisa.css"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\resultadoPesquisa\\resultadoPesquisa.html",
+      "PackagePath": "staticwebassets\\HTML\\resultadoPesquisa\\resultadoPesquisa.html"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\contarCadastro.js",
+      "PackagePath": "staticwebassets\\JS\\contarCadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\deletarCadastro.js",
+      "PackagePath": "staticwebassets\\JS\\deletarCadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\editarCadastro.js",
+      "PackagePath": "staticwebassets\\JS\\editarCadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\listarCadastro.js",
       "PackagePath": "staticwebassets\\JS\\listarCadastro.js"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\login.js",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\login.js",
       "PackagePath": "staticwebassets\\JS\\login.js"
     },
     {
-      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\novoCadastro.js",
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\novoCadastro.js",
       "PackagePath": "staticwebassets\\JS\\novoCadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\novoLogin.js",
+      "PackagePath": "staticwebassets\\JS\\novoLogin.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\pesquisaCadastro.js",
+      "PackagePath": "staticwebassets\\JS\\pesquisaCadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\verificacaoLogin.js",
+      "PackagePath": "staticwebassets\\JS\\verificacaoLogin.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\verificacaoNovoCadastro.js",
+      "PackagePath": "staticwebassets\\JS\\verificacaoNovoCadastro.js"
+    },
+    {
+      "Id": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\verificacaoNovoLogin.js",
+      "PackagePath": "staticwebassets\\JS\\verificacaoNovoLogin.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OperacaoCuriosidade.Microsoft.AspNetCore.StaticWebAssets.props",

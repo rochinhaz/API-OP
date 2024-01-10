@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj": {}
+    "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj": {
+    "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
+        "projectUniqueName": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
         "projectName": "OperacaoCuriosidade",
-        "projectPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
+        "projectPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
         "packagesPath": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Rework\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\",
+        "outputPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,7 +53,25 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
@@ -91,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OperacaoCuriosidade.Models;
+using NuGet.Protocol.Plugins;
+using OperacaoCuriosidade.Entities;
+using OperacaoCuriosidade.Persistence;
 
 namespace OperacaoCuriosidade.Controllers
 {
@@ -13,12 +15,13 @@ namespace OperacaoCuriosidade.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly TodoContext _context;
+        private readonly DataDbContext _context;
 
-        public UsuarioController(TodoContext context)
+        public UsuarioController(DataDbContext context)
         {
             _context = context;
         }
+
 
         // GET: api/Usuario
         [HttpGet]
@@ -29,7 +32,7 @@ namespace OperacaoCuriosidade.Controllers
 
         // GET: api/Usuario/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<UsuarioDTO>> GetUsuario(long id)
+        public async Task<ActionResult<UsuarioDTO>> GetUsuario(Guid id)
         {
             var usuario = await _context.Usuario.FindAsync(id);
 
@@ -44,7 +47,7 @@ namespace OperacaoCuriosidade.Controllers
         // PUT: api/Usuario/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsuario(long id, UsuarioDTO usuarioDTO)
+        public async Task<IActionResult> PutUsuario(Guid id, UsuarioDTO usuarioDTO)
         {
             if (id != usuarioDTO.Id)
             {
@@ -72,6 +75,19 @@ namespace OperacaoCuriosidade.Controllers
 
             return NoContent();
         }
+        // GET: api/Usuario/LOGIN?Email=rocha%40hotmail.com&Senha=123123123
+        [HttpGet("LOGIN")]
+        public async Task<ActionResult<IEnumerable<UsuarioDTO>>> GetUsuario([FromQuery] string Email, string Senha)
+        {
+            var login = await _context.Usuario.Where(n => n.Email == Email).Where(s => s.Senha == Senha).ToListAsync();
+
+            if (login == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(login);
+        }
 
         // POST: api/Usuario
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -96,7 +112,7 @@ namespace OperacaoCuriosidade.Controllers
 
         // DELETE: api/Usuario/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUsuario(long id)
+        public async Task<IActionResult> DeleteUsuario(Guid id)
         {
             var usuario = await _context.Usuario.FindAsync(id);
             if (usuario == null)
@@ -110,7 +126,7 @@ namespace OperacaoCuriosidade.Controllers
             return NoContent();
         }
 
-        private bool UsuarioExists(long id)
+        private bool UsuarioExists(Guid id)
         {
             return _context.Usuario.Any(e => e.Id == id);
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OperacaoCuriosidade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae52ab2299d6bdfd4315484149ad1ce99dcd3b95")]
 [assembly: System.Reflection.AssemblyProductAttribute("OperacaoCuriosidade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OperacaoCuriosidade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

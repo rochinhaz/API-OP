@@ -2,20 +2,25 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.DataProtection.KeyManagement.Internal;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OperacaoCuriosidade.Models;
+using OperacaoCuriosidade.Entities;
+using OperacaoCuriosidade.Persistence;
+using OperacaoCuriosidade.Interfaces;
+using OperacaoCuriosidade.Repository;
+using NuGet.Protocol.Core.Types;
 
-namespace OperacaoCuriosidade.Controllers
+/*namespace OperacaoCuriosidade.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class CadastroController : ControllerBase
     {
-        private readonly TodoContext _context;
+        private readonly DataDbContext _context;
 
-        public CadastroController(TodoContext context)
+        public CadastroController(DataDbContext context)
         {
             _context = context;
         }
@@ -29,7 +34,7 @@ namespace OperacaoCuriosidade.Controllers
 
         // GET: api/Cadastro/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<CadastroDTO>> GetCadastro(long id)
+        public async Task<ActionResult<CadastroDTO>> GetCadastro(Guid id)
         {
             var cadastro = await _context.Cadastro.FindAsync(id);
 
@@ -41,10 +46,40 @@ namespace OperacaoCuriosidade.Controllers
             return CadastroToDTO(cadastro);
         }
 
+        // GET: api/Cadastro/NOMES?Nome=Jeferson
+        [HttpGet("NOMES")]
+        public async Task<ActionResult<IEnumerable<CadastroDTO>>> GetCadastro([FromQuery] string Nome)
+        {
+            var nomes = await _context.Cadastro.Where(n => n.Nome == Nome).ToListAsync();
+
+            if (nomes == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(nomes);
+        }
+
+        // GET: api/Cadastro/ContarCadastros
+        [HttpGet("ContarCadastros")]
+        public async Task<ActionResult<int>> ContarCadastros()
+        {
+            try
+            {
+                var quantidadeCadastros = await _context.Cadastro.CountAsync();
+                return Ok(quantidadeCadastros);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro: {ex.Message}");
+            }
+        }
+
+
         // PUT: api/Cadastro/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCadastro(long id, CadastroDTO cadastroDTO)
+        public async Task<IActionResult> PutCadastro(Guid id, CadastroDTO cadastroDTO)
         {
             if (id != cadastroDTO.Id)
             {
@@ -59,6 +94,12 @@ namespace OperacaoCuriosidade.Controllers
             cadastro.Nome = cadastroDTO.Nome;
             cadastro.Email = cadastroDTO.Email;
             cadastro.Atividade = cadastroDTO.Atividade;
+            cadastro.Idade = cadastroDTO.Idade;
+            cadastro.Endereco = cadastroDTO.Endereco;
+            cadastro.OutrasInformacoes = cadastroDTO.OutrasInformacoes;
+            cadastro.Interesses = cadastroDTO.Interesses;
+            cadastro.Sentimentos = cadastroDTO.Sentimentos;
+            cadastro.Valores = cadastroDTO.Valores;
             //_context.Entry(cadastro).State = EntityState.Modified;
 
             try
@@ -67,7 +108,7 @@ namespace OperacaoCuriosidade.Controllers
             }
             catch (DbUpdateConcurrencyException) when (!CadastroExists(id))
             {
-                    return NotFound();
+                return NotFound();
             }
 
             return NoContent();
@@ -82,7 +123,13 @@ namespace OperacaoCuriosidade.Controllers
             {
                 Nome = cadastroDTO.Nome,
                 Email = cadastroDTO.Email,
-                Atividade = cadastroDTO.Atividade
+                Atividade = cadastroDTO.Atividade,
+                Idade = cadastroDTO.Idade,
+                Endereco = cadastroDTO.Endereco,
+                OutrasInformacoes = cadastroDTO.OutrasInformacoes,
+                Interesses = cadastroDTO.Interesses,
+                Sentimentos = cadastroDTO.Sentimentos,
+                Valores = cadastroDTO.Valores
             };
 
             _context.Cadastro.Add(cadastro);
@@ -97,36 +144,146 @@ namespace OperacaoCuriosidade.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetCadastro), new { id = cadastro.Id }, cadastro);*/
+//}
+
+// DELETE: api/Cadastro/5
+/*[HttpDelete("{id}")]
+public async Task<IActionResult> DeleteCadastro(Guid id)
+{
+    var cadastro = await _context.Cadastro.FindAsync(id);
+    if (cadastro == null)
+    {
+        return NotFound();
+    }
+
+    _context.Cadastro.Remove(cadastro);
+    await _context.SaveChangesAsync();
+
+    return NoContent();
+}
+
+private bool CadastroExists(Guid id)
+{
+    return _context.Cadastro.Any(e => e.Id == id);
+}
+
+private static CadastroDTO CadastroToDTO(Cadastro cadastro) =>
+new CadastroDTO
+{
+   Id = cadastro.Id,
+   Nome = cadastro.Nome,
+   Email = cadastro.Email,
+   Atividade = cadastro.Atividade,
+   Idade = cadastro.Idade,
+   Endereco = cadastro.Endereco,
+   OutrasInformacoes = cadastro.OutrasInformacoes,
+   Interesses = cadastro.Interesses,
+   Sentimentos = cadastro.Sentimentos,
+   Valores = cadastro.Valores
+};
+
+}
+}*/
+
+
+//TESTE COM REPOSITORIE
+namespace OperacaoCuriosidade.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CadastroController : ControllerBase
+    {
+        private readonly ICadastroRepository _cadastroRepository;
+        public CadastroController(ICadastroRepository repository)
+        {
+            _cadastroRepository = repository;
         }
 
-        // DELETE: api/Cadastro/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCadastro(long id)
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Cadastro>>> GetCadastros()
         {
-            var cadastro = await _context.Cadastro.FindAsync(id);
+            var cadastros = await _cadastroRepository.GetCadastro();
+
+            if (cadastros == null)
+            {
+                return BadRequest();
+            }
+            return Ok(cadastros);
+        }
+
+        // GET: api/Products/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<CadastroDTO>> GetCadastro(Guid id)
+        {
+            var cadastro = await _cadastroRepository.GetCadastroId(id);
             if (cadastro == null)
             {
                 return NotFound();
             }
-
-            _context.Cadastro.Remove(cadastro);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            return Ok(cadastro);
         }
 
-        private bool CadastroExists(long id)
+        [HttpPost]
+        public async Task<IActionResult> PostCadastro([FromBody] CadastroDTO cadastroDTO)
         {
-            return _context.Cadastro.Any(e => e.Id == id);
+            if (cadastroDTO == null)
+            {
+                return BadRequest();
+            }
+            await _cadastroRepository.CriarCadastro(cadastroDTO);
+            return CreatedAtAction(nameof(GetCadastro), new { id = cadastroDTO.Id }, cadastroDTO);
         }
 
-        private static CadastroDTO CadastroToDTO(Cadastro cadastro) =>
-       new CadastroDTO
-       {
-           Id = cadastro.Id,
-           Nome = cadastro.Nome,
-           Email = cadastro.Email,
-           Atividade = cadastro.Atividade
-       };
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutCadastro(Guid id, CadastroDTO cadastro)
+        {
+            if (id != cadastro.Id)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                await _cadastroRepository.AtualizaCadastro(id, cadastro);
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                throw;
+            }
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Cadastro>> DeleteCadastro(Guid id)
+        {
+            var cadastro = await _cadastroRepository.GetCadastroId(id);
+            if (cadastro == null)
+            {
+                return NotFound();
+            }
+            await _cadastroRepository.DeletaCadastro(id);
+            return Ok(cadastro);
+        }
+
+        // GET: api/Cadastro/NOMES?Nome=Jeferson
+        [HttpGet("NOMES")]
+        public async Task<ActionResult<IEnumerable<Cadastro>>> GetCadastro([FromQuery] string Nome)
+        {
+            var nomes = await _cadastroRepository.GetCadastroNome(Nome);
+
+            if (nomes == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(nomes);
+        }
+
+        // GET: api/Cadastro/ContarCadastros
+        [HttpGet("ContarCadastros")]
+        public async Task<ActionResult<int>> ContarCadastros()
+        {
+            var quantidadeCadastros = await _cadastroRepository.ContarCadastros();
+            return Ok(quantidadeCadastros);
+        }
     }
 }
