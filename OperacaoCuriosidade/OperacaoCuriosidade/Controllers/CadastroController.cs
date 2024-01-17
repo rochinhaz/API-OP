@@ -200,28 +200,17 @@ namespace OperacaoCuriosidade.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Cadastro>>> GetCadastros()
+        public async Task<IEnumerable<CadastroDTO>> GetCadastro()
         {
-
+            var cadastro =  await _cadastroRepository.GetCadastro();
+            return cadastro.ToList();
         }
 
-        // DELETE: api/Cadastro/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCadastro(Guid id)
 
-        {
-            var cadastros = await _cadastroRepository.GetCadastro();
-
-            if (cadastros == null)
-            {
-                return BadRequest();
-            }
-            return Ok(cadastros);
-        }
 
         // GET: api/Products/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<CadastroDTO>> GetCadastro(Guid id)
+        public async Task<ActionResult<CadastroDTO>> GetCadastroId(Guid id)
         {
             var cadastro = await _cadastroRepository.GetCadastroId(id);
             if (cadastro == null)
@@ -233,7 +222,6 @@ namespace OperacaoCuriosidade.Controllers
 
         [HttpPost]
         public async Task<IActionResult> PostCadastro([FromBody] CadastroDTO cadastroDTO)
-        private bool CadastroExists(Guid id);
 
         {
             if (cadastroDTO == null)
@@ -277,9 +265,9 @@ namespace OperacaoCuriosidade.Controllers
 
         // GET: api/Cadastro/NOMES?Nome=Jeferson
         [HttpGet("NOMES")]
-        public async Task<ActionResult<IEnumerable<Cadastro>>> GetCadastro([FromQuery] string Nome)
+        public async Task<ActionResult<IEnumerable<Cadastro>>> GetCadastroNome([FromQuery] string Nome)
         {
-            var nomes = await _cadastroRepository.GetCadastroNome(Nome);
+            var nomes =  _cadastroRepository.GetCadastroNome(Nome);
 
             if (nomes == null)
             {

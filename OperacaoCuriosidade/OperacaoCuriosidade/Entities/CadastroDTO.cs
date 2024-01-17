@@ -2,12 +2,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OperacaoCuriosidade.Entities
-{
-    [Index(nameof(Email), IsUnique = true)]
 
 ﻿namespace OperacaoCuriosidade.Entities
 {
+    [Index(nameof(Email), IsUnique = true)]
 
     public class CadastroDTO
     {

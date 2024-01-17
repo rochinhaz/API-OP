@@ -1,4 +1,4 @@
-﻿namespace OperacaoCuriosidade.Entities
+﻿    namespace OperacaoCuriosidade.Entities
 {
     public class UsuarioDTO
     {
