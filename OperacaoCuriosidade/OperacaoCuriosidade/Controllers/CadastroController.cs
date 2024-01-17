@@ -8,12 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OperacaoCuriosidade.Entities;
 using OperacaoCuriosidade.Persistence;
-<<<<<<< Updated upstream
 using OperacaoCuriosidade.Interfaces;
 using OperacaoCuriosidade.Repository;
 using NuGet.Protocol.Core.Types;
-=======
->>>>>>> Stashed changes
 
 /*namespace OperacaoCuriosidade.Controllers
 {
@@ -202,14 +199,16 @@ namespace OperacaoCuriosidade.Controllers
             _cadastroRepository = repository;
         }
 
-<<<<<<< Updated upstream
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cadastro>>> GetCadastros()
-=======
+        {
+
+        }
+
         // DELETE: api/Cadastro/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCadastro(Guid id)
->>>>>>> Stashed changes
+
         {
             var cadastros = await _cadastroRepository.GetCadastro();
 
@@ -232,12 +231,10 @@ namespace OperacaoCuriosidade.Controllers
             return Ok(cadastro);
         }
 
-<<<<<<< Updated upstream
         [HttpPost]
         public async Task<IActionResult> PostCadastro([FromBody] CadastroDTO cadastroDTO)
-=======
-        private bool CadastroExists(Guid id)
->>>>>>> Stashed changes
+        private bool CadastroExists(Guid id);
+
         {
             if (cadastroDTO == null)
             {
@@ -247,7 +244,7 @@ namespace OperacaoCuriosidade.Controllers
             return CreatedAtAction(nameof(GetCadastro), new { id = cadastroDTO.Id }, cadastroDTO);
         }
 
-<<<<<<< Updated upstream
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCadastro(Guid id, CadastroDTO cadastro)
         {
@@ -299,7 +296,7 @@ namespace OperacaoCuriosidade.Controllers
             var quantidadeCadastros = await _cadastroRepository.ContarCadastros();
             return Ok(quantidadeCadastros);
         }
-=======
+
         private static CadastroDTO CadastroToDTO(Cadastro cadastro) =>
        new CadastroDTO
        {
@@ -314,6 +311,5 @@ namespace OperacaoCuriosidade.Controllers
            Sentimentos = cadastro.Sentimentos,
            Valores = cadastro.Valores
        };
->>>>>>> Stashed changes
     }
 }

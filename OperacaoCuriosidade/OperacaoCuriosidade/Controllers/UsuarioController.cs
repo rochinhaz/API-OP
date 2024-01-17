@@ -5,10 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-<<<<<<< Updated upstream
 using NuGet.Protocol.Plugins;
-=======
->>>>>>> Stashed changes
 using OperacaoCuriosidade.Entities;
 using OperacaoCuriosidade.Persistence;
 

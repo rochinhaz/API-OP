@@ -24,13 +24,10 @@ namespace OperacaoCuriosidade.Persistence
                 e.Property(c => c.Email).IsRequired(false).HasMaxLength(150).HasColumnType("nvarchar(150)");
                 e.Property(c => c.Atividade).IsRequired(false).HasMaxLength(30).HasColumnType("nvarchar(30)");
                 e.Property(c => c.Idade).IsRequired(false).HasColumnType("int");
-<<<<<<< Updated upstream
                 e.Property(c => c.Endereco).IsRequired(false).HasMaxLength(250).HasColumnName("Endereço").HasColumnType("nvarchar(250)");
                 e.Property(c => c.OutrasInformacoes).IsRequired(false).HasColumnName("Outras Informações").HasMaxLength(250).HasColumnType("nvarchar(250)");
-=======
                 e.Property(c => c.Endereco).IsRequired(false).HasMaxLength(250).HasColumnType("nvarchar(250)");
                 e.Property(c => c.OutrasInformacoes).IsRequired(false).HasMaxLength(250).HasColumnType("nvarchar(250)");
->>>>>>> Stashed changes
                 e.Property(c => c.Interesses).IsRequired(false).HasMaxLength(250).HasColumnType("nvarchar(250)");
                 e.Property(c => c.Sentimentos).IsRequired(false).HasMaxLength(250).HasColumnType("nvarchar(250)");
                 e.Property(c => c.Valores).IsRequired(false).HasMaxLength(250).HasColumnType("nvarchar(250)");

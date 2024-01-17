@@ -9411,19 +9411,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
-      "projectUniqueName": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
-      "projectName": "OperacaoCuriosidade",
-      "projectPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
-      "packagesPath": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
       "projectName": "OperacaoCuriosidade",
       "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
       "packagesPath": "C:\\Users\\jefer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9516,8 +9508,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,11 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-<<<<<<< Updated upstream
 using OperacaoCuriosidade.Interfaces;
 using OperacaoCuriosidade.Persistence;
 using OperacaoCuriosidade.Repository;
-=======
 using OperacaoCuriosidade.Persistence;
->>>>>>> Stashed changes
 
 var builder = WebApplication.CreateBuilder(args);
 
