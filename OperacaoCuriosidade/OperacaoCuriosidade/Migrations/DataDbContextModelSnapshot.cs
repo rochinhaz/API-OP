@@ -38,8 +38,12 @@ namespace OperacaoCuriosidade.Migrations
 
                     b.Property<string>("Endereco")
                         .HasMaxLength(250)
+<<<<<<< Updated upstream
                         .HasColumnType("nvarchar(250)")
                         .HasColumnName("Endereço");
+=======
+                        .HasColumnType("nvarchar(250)");
+>>>>>>> Stashed changes
 
                     b.Property<int?>("Idade")
                         .HasColumnType("int");
@@ -54,8 +58,15 @@ namespace OperacaoCuriosidade.Migrations
 
                     b.Property<string>("OutrasInformacoes")
                         .HasMaxLength(250)
+<<<<<<< Updated upstream
                         .HasColumnType("nvarchar(250)")
                         .HasColumnName("Outras Informações");
+=======
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<string>("Secret")
+                        .HasColumnType("nvarchar(max)");
+>>>>>>> Stashed changes
 
                     b.Property<string>("Sentimentos")
                         .HasMaxLength(250)
@@ -67,10 +78,13 @@ namespace OperacaoCuriosidade.Migrations
 
                     b.HasKey("Id");
 
+<<<<<<< Updated upstream
                     b.HasIndex("Email")
                         .IsUnique()
                         .HasFilter("[Email] IS NOT NULL");
 
+=======
+>>>>>>> Stashed changes
                     b.ToTable("Cadastro");
                 });
 
@@ -88,6 +102,12 @@ namespace OperacaoCuriosidade.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
+<<<<<<< Updated upstream
+=======
+                    b.Property<string>("Secret")
+                        .HasColumnType("nvarchar(max)");
+
+>>>>>>> Stashed changes
                     b.Property<string>("Senha")
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");

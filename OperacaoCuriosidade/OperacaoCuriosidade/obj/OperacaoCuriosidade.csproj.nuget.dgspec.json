@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj": {}
   },
   "projects": {
@@ -12,12 +13,25 @@
         "projectPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
         "packagesPath": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\",
+=======
+    "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
+        "projectName": "OperacaoCuriosidade",
+        "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\OperacaoCuriosidade.csproj",
+        "packagesPath": "C:\\Users\\jefer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JéfersonRochadeOlive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jefer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +40,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolders": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,9 +52,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {

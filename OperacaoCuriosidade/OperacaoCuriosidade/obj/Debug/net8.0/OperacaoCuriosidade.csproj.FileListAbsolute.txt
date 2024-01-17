@@ -489,6 +489,7 @@ C:\Users\jefer\OneDrive\Documentos\GitHub\API-OP\OperacaoCuriosidade\OperacaoCur
 C:\Users\jefer\OneDrive\Documentos\GitHub\API-OP\OperacaoCuriosidade\OperacaoCuriosidade\obj\Debug\net8.0\OperacaoCuriosidade.pdb
 C:\Users\jefer\OneDrive\Documentos\GitHub\API-OP\OperacaoCuriosidade\OperacaoCuriosidade\obj\Debug\net8.0\OperacaoCuriosidade.genruntimeconfig.cache
 C:\Users\jefer\OneDrive\Documentos\GitHub\API-OP\OperacaoCuriosidade\OperacaoCuriosidade\obj\Debug\net8.0\ref\OperacaoCuriosidade.dll
+<<<<<<< Updated upstream
 C:\Users\JéfersonRochadeOlive\OneDrive - ForLogic\Documentos\Estudos\DBsemRelacoes\OperacaoCuriosidade\OperacaoCuriosidade\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\JéfersonRochadeOlive\OneDrive - ForLogic\Documentos\Estudos\DBsemRelacoes\OperacaoCuriosidade\OperacaoCuriosidade\bin\Debug\net8.0\appsettings.json
 C:\Users\JéfersonRochadeOlive\OneDrive - ForLogic\Documentos\Estudos\DBsemRelacoes\OperacaoCuriosidade\OperacaoCuriosidade\bin\Debug\net8.0\OperacaoCuriosidade.staticwebassets.runtime.json
@@ -1005,3 +1006,5 @@ C:\Users\JéfersonRochadeOlive\OneDrive - ForLogic\Documentos\Estudos\Jeferson\O
 C:\Users\JéfersonRochadeOlive\OneDrive - ForLogic\Documentos\Estudos\Jeferson\OperacaoCuriosidade\OperacaoCuriosidade\obj\Debug\net8.0\OperacaoCuriosidade.csproj.CopyComplete
 C:\Users\JéfersonRochadeOlive\OneDrive - ForLogic\Documentos\Estudos\Jeferson\OperacaoCuriosidade\OperacaoCuriosidade\obj\Debug\net8.0\OperacaoCuriosidade.genruntimeconfig.cache
 C:\Users\JéfersonRochadeOlive\OneDrive - ForLogic\Documentos\Estudos\Jeferson\OperacaoCuriosidade\OperacaoCuriosidade\obj\Debug\net8.0\ref\OperacaoCuriosidade.dll
+=======
+>>>>>>> Stashed changes

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "5mpEKK3kMTxoDVA5VErSkr18OnxNC86EipJav3SV89U=",
+=======
+  "Hash": "GYdMsjQfTLViZBne4aUq9QF+lbouvLbNPVPKBY801Ms=",
+>>>>>>> Stashed changes
   "Source": "OperacaoCuriosidade",
   "BasePath": "_content/OperacaoCuriosidade",
   "Mode": "Default",
@@ -10,17 +14,21 @@
     {
       "Name": "OperacaoCuriosidade\\wwwroot",
       "Source": "OperacaoCuriosidade",
+<<<<<<< Updated upstream
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\jefer\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\jefer\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +41,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\jefer\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\jefer\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\jefer\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,13 +60,20 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\JéfersonRochadeOlive\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\jefer\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OperacaoCuriosidade.styles.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OperacaoCuriosidade.styles.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "OperacaoCuriosidade.styles.css",
       "AssetKind": "All",
@@ -71,6 +86,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OperacaoCuriosidade.styles.css"
     },
     {
@@ -78,6 +94,15 @@
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OperacaoCuriosidade.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\cadastro.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/cadastro/cadastro.css",
       "AssetKind": "All",
@@ -93,10 +118,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\cadastro\\cadastro.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\cadastro.html",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\cadastro.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/cadastro/cadastro.html",
       "AssetKind": "All",
@@ -112,10 +144,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\cadastro\\cadastro.html"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\mediaQueryCadastro.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastro\\mediaQueryCadastro.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/cadastro/mediaQueryCadastro.css",
       "AssetKind": "All",
@@ -131,10 +170,74 @@
       "OriginalItemSpec": "wwwroot\\HTML\\cadastro\\mediaQueryCadastro.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\home.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\cadastroLogin.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+      "BasePath": "_content/OperacaoCuriosidade",
+      "RelativePath": "HTML/cadastroLogin/cadastroLogin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\cadastroLogin\\cadastroLogin.css"
+    },
+    {
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\cadastroLogin.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+      "BasePath": "_content/OperacaoCuriosidade",
+      "RelativePath": "HTML/cadastroLogin/cadastroLogin.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\cadastroLogin\\cadastroLogin.html"
+    },
+    {
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\cadastroLogin\\mediaQueryCadastroLogin.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+      "BasePath": "_content/OperacaoCuriosidade",
+      "RelativePath": "HTML/cadastroLogin/mediaQueryCadastroLogin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\cadastroLogin\\mediaQueryCadastroLogin.css"
+    },
+    {
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\home.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/home/home.css",
       "AssetKind": "All",
@@ -150,10 +253,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\home\\home.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\home.html",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\home.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/home/home.html",
       "AssetKind": "All",
@@ -169,10 +279,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\home\\home.html"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\mediaQueryHome.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\home\\mediaQueryHome.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/home/mediaQueryHome.css",
       "AssetKind": "All",
@@ -188,10 +305,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\home\\mediaQueryHome.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\favicon.ico",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\favicon.ico",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/imagens/favicon.ico",
       "AssetKind": "All",
@@ -207,10 +331,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\imagens\\favicon.ico"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\logo_login.png",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\logo_login.png",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/imagens/logo_login.png",
       "AssetKind": "All",
@@ -226,10 +357,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\imagens\\logo_login.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\logo_nav.png",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\imagens\\logo_nav.png",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/imagens/logo_nav.png",
       "AssetKind": "All",
@@ -245,10 +383,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\imagens\\logo_nav.png"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\index.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\index.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/index/index.css",
       "AssetKind": "All",
@@ -264,10 +409,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\index\\index.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\index.html",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\index.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/index/index.html",
       "AssetKind": "All",
@@ -283,10 +435,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\index\\index.html"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\mediaQueryIndex.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\index\\mediaQueryIndex.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/index/mediaQueryIndex.css",
       "AssetKind": "All",
@@ -302,10 +461,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\index\\mediaQueryIndex.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\listaDeUsuario.html",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\listaDeUsuario.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/listaDeUsuario/listaDeUsuario.html",
       "AssetKind": "All",
@@ -321,10 +487,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\listaDeUsuario\\listaDeUsuario.html"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\listaUsuario.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\listaUsuario.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/listaDeUsuario/listaUsuario.css",
       "AssetKind": "All",
@@ -340,10 +513,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\listaDeUsuario\\listaUsuario.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\mediaQueryListaUsuario.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\listaDeUsuario\\mediaQueryListaUsuario.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/listaDeUsuario/mediaQueryListaUsuario.css",
       "AssetKind": "All",
@@ -359,10 +539,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\listaDeUsuario\\mediaQueryListaUsuario.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\login.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\login.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/login/login.css",
       "AssetKind": "All",
@@ -378,10 +565,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\login\\login.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\login.html",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\login.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/login/login.html",
       "AssetKind": "All",
@@ -397,10 +591,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\login\\login.html"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\mediaQueryLogin.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\login\\mediaQueryLogin.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/login/mediaQueryLogin.css",
       "AssetKind": "All",
@@ -416,10 +617,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\login\\mediaQueryLogin.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\mediaQueryNovoCadastro.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\mediaQueryNovoCadastro.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/novoCadastro/mediaQueryNovoCadastro.css",
       "AssetKind": "All",
@@ -435,10 +643,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\novoCadastro\\mediaQueryNovoCadastro.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\novocadastro.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\novocadastro.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/novoCadastro/novocadastro.css",
       "AssetKind": "All",
@@ -454,10 +669,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\novoCadastro\\novocadastro.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\novoCadastro.html",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoCadastro\\novoCadastro.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/novoCadastro/novoCadastro.html",
       "AssetKind": "All",
@@ -473,6 +695,7 @@
       "OriginalItemSpec": "wwwroot\\HTML\\novoCadastro\\novoCadastro.html"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\novoLogin\\mediaQueryNovoLogin.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
@@ -534,6 +757,12 @@
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\mediaQueryRelatorio.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/relatorio/mediaQueryRelatorio.css",
       "AssetKind": "All",
@@ -549,10 +778,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\relatorio\\mediaQueryRelatorio.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/relatorio/relatorio.css",
       "AssetKind": "All",
@@ -568,10 +804,17 @@
       "OriginalItemSpec": "wwwroot\\HTML\\relatorio\\relatorio.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.html",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\relatorio\\relatorio.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/relatorio/relatorio.html",
       "AssetKind": "All",
@@ -587,10 +830,16 @@
       "OriginalItemSpec": "wwwroot\\HTML\\relatorio\\relatorio.html"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\resultadoPesquisa\\mediaQueryResultadoPesquisa.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\resultadoPesquisa\\mediaQueryResultadoPesquisa.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "HTML/resultadoPesquisa/mediaQueryResultadoPesquisa.css",
       "AssetKind": "All",
@@ -606,6 +855,65 @@
       "OriginalItemSpec": "wwwroot\\HTML\\resultadoPesquisa\\mediaQueryResultadoPesquisa.css"
     },
     {
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\resultadoPesquisa\\resultadoPesquisa.css",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+      "BasePath": "_content/OperacaoCuriosidade",
+      "RelativePath": "HTML/resultadoPesquisa/resultadoPesquisa.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\resultadoPesquisa\\resultadoPesquisa.css"
+    },
+    {
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\resultadoPesquisa\\resultadoPesquisa.html",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+      "BasePath": "_content/OperacaoCuriosidade",
+      "RelativePath": "HTML/resultadoPesquisa/resultadoPesquisa.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\resultadoPesquisa\\resultadoPesquisa.html"
+    },
+    {
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\cadastroLogin.js",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
+      "BasePath": "_content/OperacaoCuriosidade",
+      "RelativePath": "HTML/resultadoPesquisa/mediaQueryResultadoPesquisa.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\resultadoPesquisa\\mediaQueryResultadoPesquisa.css"
+    },
+    {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\HTML\\resultadoPesquisa\\resultadoPesquisa.css",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
@@ -705,6 +1013,12 @@
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\listarCadastro.js",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "JS/listarCadastro.js",
       "AssetKind": "All",
@@ -720,10 +1034,17 @@
       "OriginalItemSpec": "wwwroot\\JS\\listarCadastro.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\login.js",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\login.js",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "JS/login.js",
       "AssetKind": "All",
@@ -739,10 +1060,17 @@
       "OriginalItemSpec": "wwwroot\\JS\\login.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\novoCadastro.js",
       "SourceId": "OperacaoCuriosidade",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JéfersonRochadeOlive\\OneDrive - ForLogic\\Documentos\\Estudos\\Jeferson\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\JS\\novoCadastro.js",
+      "SourceId": "OperacaoCuriosidade",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jefer\\OneDrive\\Documentos\\GitHub\\API-OP\\OperacaoCuriosidade\\OperacaoCuriosidade\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/OperacaoCuriosidade",
       "RelativePath": "JS/novoCadastro.js",
       "AssetKind": "All",

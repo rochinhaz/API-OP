@@ -1,6 +1,0 @@
-@OperacaoCuriosisdade_HostAddress = http://localhost:5019
-
-GET {{OperacaoCuriosisdade_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
